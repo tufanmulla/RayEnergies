@@ -1,0 +1,316 @@
+/* ===================================================================================== */
+/* Using google robot fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* Using google robot fonts */
+/* ===================================================================================== */
+
+/* ===================================================================================== */
+/* Default CSS are starts here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* Default CSS ends */
+/* ===================================================================================== */
+
+/* ===================================================================================== */
+/* Header CSS starts here */
+/* login register division starts */
+.loginRegisterMainContainer {
+  overflow: hidden;
+  padding: 20px;
+  background-color: #948bfc;
+}
+.headerBarText {
+  float: left;
+  width: 70%;
+  text-align: center;
+}
+.headerBarText article span {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.loginRegisterDivison {
+  float: right;
+  width: 30%;
+  text-align: end;
+}
+
+.loginRegisterDivison i {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.loginRegister {
+  display: inline;
+}
+.loginRegister a,
+span {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.loginRegister a:first-child:hover {
+  color: rgb(216, 216, 216);
+}
+.loginRegister a:last-child:hover {
+  color: rgb(216, 216, 216);
+}
+/* login register division ends*/
+
+/* navContainer starts */
+.navContainer {
+  overflow: hidden;
+}
+.navLeftContent {
+  width: 20%;
+  float: left;
+  background-color: #948bfc;
+  position: absolute;
+  left: 0;
+  top: 59;
+  height: 71.72px;
+}
+.navLeftContent .logo {
+  width: 130px;
+  float: right;
+  padding: 0 10px 0 10px;
+}
+.navLeftContent .logo img {
+  width: 100%;
+  cursor: grab;
+}
+
+.navRightContent {
+  width: 80%;
+  background-color: #ffffff;
+  float: right;
+  height: 71.72px;
+}
+.navRightContent nav {
+  display: inline;
+  width: 65%;
+  float: left;
+  height: 100%;
+}
+nav ul {
+  list-style: none;
+  width: fit-content;
+  height: 100%;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 52px;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 73px;
+}
+nav ul li:hover {
+  cursor: pointer;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+  display: inline-block;
+  width: fit-content;
+  height: 100%;
+  position: relative;
+}
+nav ul li a::before {
+  content: "";
+  position: absolute;
+  border-right: 65px solid #948bfc;
+  border-bottom: 60px solid transparent;
+  top: -90%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(497deg);
+  transition: all 0.3s;
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  border-right: 65px solid #948bfc;
+  border-bottom: 60px solid transparent;
+  bottom: -190%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(314deg);
+  transition: all 0.3s;
+}
+nav ul li:hover a::before {
+  top: -45%;
+}
+nav ul li:hover a::after {
+  bottom: -125%;
+}
+
+nav ul li ul {
+  position: absolute;
+  width: fit-content;
+  padding: 15px;
+  height: fit-content;
+  background-color: #948bfc;
+  border-top: 1px solid #000000;
+  top: 20.5%;
+  transform-origin: bottom;
+  transform: translateY(10px) scale(0);
+  transition: all 0.1s;
+  z-index: 50;
+}
+ul.moreHome {
+  left: 21.5%;
+}
+ul.morePages {
+  left: 51%;
+}
+nav ul li:hover ul {
+  transform: translateY(0) scale(1);
+}
+nav ul li ul li {
+  display: block;
+  margin-right: 0;
+  text-align: start;
+  padding: 10px;
+  line-height: initial;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+nav ul li ul li:hover {
+  background-color: #ffffff;
+}
+nav ul li ul li:last-child {
+  margin-bottom: 0;
+}
+nav ul li ul li a {
+  font-size: 14px;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+nav ul li ul li:hover a {
+  color: #948bfc;
+}
+nav ul li ul li a::before {
+  display: none;
+}
+nav ul li ul li a::after {
+  display: none;
+}
+
+.navRightContent .searchDivision {
+  display: inline;
+  width: 10%;
+  float: left;
+  margin-top: 10px;
+}
+.searchDivision .search {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  float: right;
+  border: 1px solid #948bfc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.searchDivision:hover .search {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: none;
+}
+
+.navRightContent .searchDivision i {
+  position: absolute;
+  font-size: 18px;
+  color: #948bfc;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s;
+}
+.searchDivision .search:hover i {
+  font-size: 23px;
+}
+
+.searchField {
+  position: absolute;
+  width: fit-content;
+  right: 373px;
+}
+
+.searchField input {
+  width: 0;
+  font-size: 14px;
+  color: #948bfc;
+  padding: 0;
+  outline: none;
+  border: 0px solid #948bfc;
+  transition: all 0.1s;
+}
+.searchDivision:hover input {
+  width: 675px;
+  padding: 16px;
+  border: 1px solid #948bfc;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.navRightContent .getStartedButton {
+  width: 25%;
+  display: inline;
+  float: right;
+  margin-top: 10px;
+}
+.getStartedButton button {
+  outline: none;
+  border: none;
+  padding: 15px;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #948bfc;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  width: 80%;
+  text-transform: uppercase;
+  float: right;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.getStartedButton:hover button {
+  color: rgb(216, 216, 216);
+}
+/* navContainer ends*/
+
+/* Header CSS ends */
+/* ===================================================================================== */
