@@ -1,0 +1,305 @@
+/* ===================================================================================== */
+/* Using google robot fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* Using google robot fonts */
+/* ===================================================================================== */
+
+/* ===================================================================================== */
+/* Default CSS are starts here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+body {
+  background-color: #70e3de2b;
+}
+/* Default CSS ends */
+/* ===================================================================================== */
+
+/* ===================================================================================== */
+/* loginForm CSS starts here */
+.loginForm {
+  float: left;
+  width: 40%;
+  background: #948bfc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 30px;
+  box-shadow: 15px 15px 24px -15px rgba(0, 0, 0, 0.4);
+}
+.loginForm form span {
+  width: 100%;
+  color: #ffffff;
+  font-size: 19px;
+  text-align: center;
+  display: block;
+  font-weight: 300;
+  margin-bottom: 16px;
+  font-style: oblique;
+  cursor: pointer;
+}
+.loginForm form input {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 12px;
+  font-size: 14px;
+  color: #948bfc;
+  font-weight: 300;
+  border-radius: 5px;
+  outline: none;
+  background-color: #ffffff85;
+  border: none;
+  transition: all 0.3s;
+}
+.loginForm form input:hover {
+  background-color: #ffffff;
+}
+.loginForm form #loginEmail {
+  margin-bottom: 35px;
+}
+.loginForm form input::placeholder {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #948bfc;
+}
+.buttonAndForgotContainer {
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+.loginForm form button {
+  display: inline;
+  width: 48%;
+  float: left;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin: 0 auto;
+  color: #948bfc;
+  background-color: #ffffff85;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 5px;
+  cursor: progress;
+  transition: all 0.3s;
+}
+.loginForm form button:hover {
+  background-color: #ffffff;
+}
+
+.loginForm .forgotPassoword {
+  display: inline;
+  width: 48%;
+  float: right;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #ffffff85;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.loginForm .forgotPassoword:hover {
+  background-color: #ffffff;
+}
+.loginForm .forgotPassoword a {
+  color: #948bfc;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.loginForm .loginWithGoogle,
+.loginWithFacebook,
+.loginWithTwitter {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #ffffff85;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  transition: all 0.5s;
+}
+.loginForm .loginWithGoogle:hover {
+  background: #ffffff;
+}
+.loginForm .loginWithFacebook:hover {
+  background: #ffffff;
+}
+.loginForm .loginWithTwitter:hover {
+  background: #ffffff;
+}
+.loginForm .loginWithTwitter {
+  margin-bottom: 20px;
+}
+.loginForm .loginWithGoogle a {
+  color: #948bfc;
+}
+.loginForm .loginWithFacebook a {
+  color: #948bfc;
+}
+.loginForm .loginWithTwitter a {
+  color: #948bfc;
+}
+.notAaccount {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.notAaccount a {
+  font-size: 15px;
+  font-weight: 300;
+  font-style: oblique;
+  color: #4d3eff;
+}
+/* .loginForm form input:last-child {
+    margin
+} */
+/* loginForm CSS ends */
+/* ===================================================================================== */
+
+/* ===================================================================================== */
+/* registerForm CSS starts here */
+.registerForm {
+  float: right;
+  width: 40%;
+  background: #948bfc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 30px;
+  box-shadow: -15px -15px 24px -15px rgba(0, 0, 0, 0.4);
+}
+.registerForm form {
+  overflow: hidden;
+}
+.registerForm form span {
+  width: 100%;
+  color: #ffffff;
+  font-size: 19px;
+  text-align: center;
+  display: block;
+  font-weight: 300;
+  margin-bottom: 16px;
+  font-style: oblique;
+  cursor: pointer;
+}
+.registerForm form input {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 12px;
+  font-size: 14px;
+  color: #948bfc;
+  font-weight: 300;
+  border-radius: 5px;
+  outline: none;
+  background-color: #ffffff85;
+  border: none;
+  transition: all 0.3s;
+}
+.registerForm form input:hover {
+  background-color: #ffffff;
+}
+.registerForm form #confirmPassword {
+  margin-bottom: 35px;
+}
+.registerForm form input::placeholder {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #948bfc;
+}
+.registerForm form button {
+  width: 50%;
+  display: block;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  color: #948bfc;
+  background-color: #ffffff85;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 5px;
+  cursor: progress;
+  transition: all 0.3s;
+}
+.registerForm form button:hover {
+  background-color: #ffffff;
+}
+
+.registerForm .forgotPassoword a {
+  color: #948bfc;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.registerForm .registerWithGoogle,
+.registerWithFacebook,
+.registerWithTwitter {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #ffffff85;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  transition: all 0.5s;
+}
+.registerForm .registerWithGoogle:hover {
+  background: #ffffff;
+}
+.registerForm .registerWithFacebook:hover {
+  background: #ffffff;
+}
+.registerForm .registerWithTwitter:hover {
+  background: #ffffff;
+}
+.registerForm .registerWithTwitter {
+  margin-bottom: 20px;
+}
+.registerForm .registerWithGoogle a {
+  color: #948bfc;
+}
+.registerForm .registerWithFacebook a {
+  color: #948bfc;
+}
+.registerForm .registerWithTwitter a {
+  color: #948bfc;
+}
+.signUp {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.signUp a {
+  font-size: 15px;
+  font-weight: 300;
+  font-style: oblique;
+  color: #4d3eff;
+}
+/* registerForm CSS ends */
+/* ===================================================================================== */

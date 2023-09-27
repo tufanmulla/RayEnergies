@@ -92,10 +92,34 @@ span {
   width: 130px;
   float: right;
   padding: 0 10px 0 10px;
+  position: absolute;
+  z-index: 3;
+  top: -25px;
+  left: 165px;
 }
 .navLeftContent .logo img {
   width: 100%;
   cursor: grab;
+}
+.styelOfnavLeftContent {
+  border-right: 85px solid #948bfc;
+  position: absolute;
+  left: 91%;
+  top: -15%;
+  border-bottom: 65px solid transparent;
+  transform: rotate(-108deg);
+  z-index: -1;
+}
+.styleOfNavshadow {
+  content: "";
+  background-color: #e5e5e5;
+  width: 163px;
+  height: 14px;
+  position: absolute;
+  left: -45px;
+  top: 30px;
+  transform: rotate(37deg);
+  z-index: -1;
 }
 
 .navRightContent {
@@ -123,13 +147,14 @@ nav ul li {
   text-align: center;
   vertical-align: middle;
   line-height: 73px;
-}
-nav ul li:hover {
   cursor: pointer;
 }
 
 nav ul li:last-child {
   margin-right: 0;
+}
+nav ul li:hover a {
+  color: #948bfc;
 }
 
 nav ul li a {
@@ -142,6 +167,7 @@ nav ul li a {
   width: fit-content;
   height: 100%;
   position: relative;
+  transition: all 0.3s;
 }
 nav ul li a::before {
   content: "";
@@ -211,11 +237,11 @@ nav ul li ul li:last-child {
 }
 nav ul li ul li a {
   font-size: 14px;
-  color: #ffffff;
+  color: #ffffff !important;
   transition: all 0.3s;
 }
 nav ul li ul li:hover a {
-  color: #948bfc;
+  color: #948bfc !important;
 }
 nav ul li ul li a::before {
   display: none;
