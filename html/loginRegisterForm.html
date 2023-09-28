@@ -12,131 +12,98 @@
     <!-- ============================================================================ -->
     <!-- main starts here -->
     <main>
-      <div class="container">
-        <!-- ========================================================================== -->
-        <!-- Login Form starts here -->
-        <div class="loginForm">
-          <form onclick="event.preventDefault()">
-            <span>Login With Email</span>
-            <input
-              type="email"
-              name="loginUserEmail"
-              id="loginUserEmail"
-              placeholder="Enter Your Username"
-              required
-            />
-            <input
-              type="password"
-              name="loginUserPass"
-              id="loginUserPass"
-              placeholder="Enter Your Password"
-              required
-            />
-            <div class="buttonAndForgotContainer">
-              <button type="submit">
-                Login Now <i class="fa-solid fa-arrow-right-to-bracket"></i>
-              </button>
-              <div class="forgotPassoword">
-                <a href="">Forgot Password!</a>
+      <section>
+        <div class="container">
+          <!-- ========================================================================== -->
+          <!-- Login Form starts here -->
+          <div class="loginForm">
+            <form onclick="event.preventDefault()">
+              <span>Login With Email</span>
+              <input
+                type="email"
+                name="loginUserEmail"
+                id="loginUserEmail"
+                placeholder="Enter Your Email"
+                required
+              />
+              <input
+                type="password"
+                name="loginUserPass"
+                id="loginUserPass"
+                placeholder="Enter Your Password"
+                required
+              />
+              <div class="buttonAndForgotContainer">
+                <button type="submit">
+                  Login Now <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                </button>
+                <div class="forgotPassoword">
+                  <a href="">Forgot Password!</a>
+                </div>
               </div>
+            </form>
+            <div class="loginWithGoogle">
+              <a href="">Login With <i class="fa-brands fa-google"></i> </a>
             </div>
-          </form>
-          <div class="loginWithGoogle">
-            <a href="">Login With <i class="fa-brands fa-google"></i> </a>
+            <div class="loginWithFacebook">
+              <a href="">Login With <i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="loginWithTwitter">
+              <a href="">Login With <i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="notAaccount">
+              <a href=""
+                >Not a Account Create Now!
+                <i class="fa-solid fa-hand-point-right"></i
+              ></a>
+            </div>
           </div>
-          <div class="loginWithFacebook">
-            <a href="">Login With <i class="fa-brands fa-facebook"></i></a>
-          </div>
-          <div class="loginWithTwitter">
-            <a href="">Login With <i class="fa-brands fa-twitter"></i></a>
-          </div>
-          <div class="notAaccount">
-            <a href=""
-              >Not a Account Create Now!
-              <i class="fa-solid fa-hand-point-right"></i
-            ></a>
-          </div>
-        </div>
-        <!-- Login Form ends -->
-        <!-- ========================================================================== -->
+          <!-- Login Form ends -->
+          <!-- ========================================================================== -->
 
-        <!-- ========================================================================== -->
-        <!-- Register Forms starts -->
-        <div class="registerForm">
-          <form onclick="event.preventDefault()">
-            <span>Register With Email</span>
-            <input
-              type="text"
-              name="firstName"
-              id="firstName"
-              placeholder="First Name"
-              required
-            />
-            <input
-              type="text"
-              name="lastName"
-              id="lastName"
-              placeholder="Last Name"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Enter Your Email"
-              required
-            />
-            <input
-              type="tel"
-              name="tel"
-              id="tel"
-              placeholder="Phone Number"
-              required
-            />
-            <input
-              type="text"
-              name="userName"
-              id="userName"
-              placeholder="Username"
-              required
-            />
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Password"
-              required
-            />
-            <input
-              type="password"
-              name="confirmPassword"
-              id="confirmPassword"
-              placeholder="Confirm Password"
-              required
-            />
-            <button type="submit">
-              SignUp <i class="fa-solid fa-user-plus"></i>
-            </button>
-          </form>
-          <div class="registerWithGoogle">
-            <a href="">Register With <i class="fa-brands fa-google"></i></a>
+          <!-- ========================================================================== -->
+          <!-- Register Forms starts -->
+          <div class="registerForm">
+            <form onclick="event.preventDefault()">
+              <span>Register With Email</span>
+              <input
+                type="email"
+                name="registerEmail"
+                id="registrEmail"
+                placeholder="Enter Your Email"
+                required
+              />
+              <input
+                type="password"
+                name="registerPassword"
+                id="registerPassword"
+                placeholder="Password"
+                required
+              />
+              <button type="submit">
+                SignUp <i class="fa-solid fa-user-plus"></i>
+              </button>
+            </form>
+            <div class="registerWithGoogle">
+              <a href="">Register With <i class="fa-brands fa-google"></i></a>
+            </div>
+            <div class="registerWithFacebook">
+              <a href="">Register With <i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="registerWithTwitter">
+              <a href="">Register With <i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="alreadyAaccount">
+              <a href=""
+                ><i class="fa-solid fa-hand-scissors"></i> If already a member
+                login now</a
+              >
+            </div>
           </div>
-          <div class="registerWithFacebook">
-            <a href="">Register With <i class="fa-brands fa-facebook"></i></a>
-          </div>
-          <div class="registerWithTwitter">
-            <a href="">Register With <i class="fa-brands fa-twitter"></i></a>
-          </div>
-          <div class="signUp">
-            <a href=""
-              ><i class="fa-solid fa-hand-scissors"></i> If already a member
-              login now</a
-            >
-          </div>
+          <!-- Register Forms ends-->
+          <!-- ========================================================================== -->
         </div>
-        <!-- Register Forms ends-->
-        <!-- ========================================================================== -->
-      </div>
+      </section>
     </main>
 
     <!-- main ends - -->

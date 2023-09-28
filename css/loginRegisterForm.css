@@ -24,19 +24,41 @@ a {
 body {
   background-color: #70e3de2b;
 }
+
 /* Default CSS ends */
 /* ===================================================================================== */
 
 /* ===================================================================================== */
 /* loginForm CSS starts here */
 .loginForm {
-  float: left;
   width: 40%;
+  height: 500px;
+  float: left;
   background: #948bfc;
   border-radius: 10px;
   padding: 20px;
   margin-left: 30px;
   box-shadow: 15px 15px 24px -15px rgba(0, 0, 0, 0.4);
+  animation-name: loginFormAnimate;
+  animation-duration: 3s;
+  transition: all 0.5s;
+  cursor: grab;
+}
+.loginForm:hover {
+  transform: scale(1.05);
+  box-shadow: -15px 15px 24px -15px rgba(0, 0, 0, 0.4);
+}
+@keyframes loginFormAnimate {
+  from {
+    transform: translateX(1000%);
+    opacity: 0;
+    display: none;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+    display: block;
+  }
 }
 .loginForm form span {
   width: 100%;
@@ -51,32 +73,33 @@ body {
 }
 .loginForm form input {
   display: block;
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
   margin-bottom: 25px;
   padding: 12px;
-  font-size: 14px;
+  font-size: 15px;
   color: #948bfc;
-  font-weight: 300;
+  font-weight: 400;
   border-radius: 5px;
   outline: none;
   background-color: #ffffff85;
   border: none;
   transition: all 0.3s;
 }
-.loginForm form input:hover {
+.loginForm form input:focus {
   background-color: #ffffff;
 }
 .loginForm form #loginEmail {
   margin-bottom: 35px;
 }
 .loginForm form input::placeholder {
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 400;
   letter-spacing: 1px;
   color: #948bfc;
 }
 .buttonAndForgotContainer {
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
   display: block;
   overflow: hidden;
@@ -114,19 +137,20 @@ body {
   cursor: pointer;
   transition: all 0.3s;
 }
-.loginForm .forgotPassoword:hover {
-  background-color: #ffffff;
-}
 .loginForm .forgotPassoword a {
   color: #948bfc;
   letter-spacing: 1px;
-  font-size: 14px;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 400;
 }
+.loginForm .forgotPassoword:hover {
+  background-color: #ffffff;
+}
+
 .loginForm .loginWithGoogle,
 .loginWithFacebook,
 .loginWithTwitter {
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
   background-color: #ffffff85;
   text-align: center;
@@ -136,6 +160,7 @@ body {
   border-radius: 5px;
   padding: 10px;
   transition: all 0.5s;
+  cursor: pointer;
 }
 .loginForm .loginWithGoogle:hover {
   background: #ffffff;
@@ -151,22 +176,31 @@ body {
 }
 .loginForm .loginWithGoogle a {
   color: #948bfc;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 400;
 }
 .loginForm .loginWithFacebook a {
   color: #948bfc;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 .loginForm .loginWithTwitter a {
   color: #948bfc;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 .notAaccount {
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
   text-align: center;
 }
 
 .notAaccount a {
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: oblique;
   color: #4d3eff;
 }
@@ -179,13 +213,33 @@ body {
 /* ===================================================================================== */
 /* registerForm CSS starts here */
 .registerForm {
-  float: right;
   width: 40%;
+  height: 500px;
+  float: right;
   background: #948bfc;
   border-radius: 10px;
   padding: 20px;
-  margin-right: 30px;
   box-shadow: -15px -15px 24px -15px rgba(0, 0, 0, 0.4);
+  animation-name: registerFormAnimate;
+  animation-duration: 3s;
+  transition: all 0.5s;
+  cursor: grab;
+}
+.registerForm:hover {
+  transform: scale(1.05);
+  box-shadow: 15px 15px 24px -15px rgba(0, 0, 0, 0.4);
+}
+@keyframes registerFormAnimate {
+  from {
+    transform: translateX(-1000%);
+    opacity: 0;
+    display: none;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+    display: block;
+  }
 }
 .registerForm form {
   overflow: hidden;
@@ -203,27 +257,28 @@ body {
 }
 .registerForm form input {
   display: block;
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
   margin-bottom: 25px;
   padding: 12px;
-  font-size: 14px;
+  font-size: 15px;
   color: #948bfc;
-  font-weight: 300;
+  font-weight: 400;
   border-radius: 5px;
   outline: none;
   background-color: #ffffff85;
   border: none;
   transition: all 0.3s;
 }
-.registerForm form input:hover {
+.registerForm form input:focus {
   background-color: #ffffff;
 }
 .registerForm form #confirmPassword {
   margin-bottom: 35px;
 }
 .registerForm form input::placeholder {
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 400;
   letter-spacing: 1px;
   color: #948bfc;
 }
@@ -239,7 +294,7 @@ body {
   background-color: #ffffff85;
   letter-spacing: 1px;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   border-radius: 5px;
   cursor: progress;
   transition: all 0.3s;
@@ -252,21 +307,23 @@ body {
   color: #948bfc;
   letter-spacing: 1px;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
 }
 .registerForm .registerWithGoogle,
 .registerWithFacebook,
 .registerWithTwitter {
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
   background-color: #ffffff85;
   text-align: center;
   letter-spacing: 1px;
   font-size: 15px;
+  font-weight: 400;
   margin-bottom: 20px;
   border-radius: 5px;
   padding: 10px;
   transition: all 0.5s;
+  cursor: pointer;
 }
 .registerForm .registerWithGoogle:hover {
   background: #ffffff;
@@ -282,22 +339,31 @@ body {
 }
 .registerForm .registerWithGoogle a {
   color: #948bfc;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 .registerForm .registerWithFacebook a {
   color: #948bfc;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 .registerForm .registerWithTwitter a {
   color: #948bfc;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
-.signUp {
+.alreadyAaccount {
   width: 75%;
   margin: 0 auto;
   text-align: center;
 }
 
-.signUp a {
+.alreadyAaccount a {
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: oblique;
   color: #4d3eff;
 }

@@ -340,3 +340,109 @@ nav ul li ul li a::after {
 
 /* Header CSS ends */
 /* ===================================================================================== */
+
+/* ===================================================================================== */
+/* section one CSS are starts here */
+.sectionOne {
+  padding: 120px 0;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url(../images/sectionOne/sectionOneBackImg.png);
+  background-position: center;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.sectionOneContentContainer {
+  width: 900px;
+  margin: 0 auto;
+}
+.sectionOneContentContainer article b {
+  display: block;
+  font-size: 25px;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.sectionOneContentContainer article h1 {
+  width: 800px;
+  font-size: 125px;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+.sectionOneContentContainer article p {
+  width: 600px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+}
+.readMoreButton {
+  width: 185px;
+}
+.readMoreButton button {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 1px;
+  letter-spacing: 2px;
+  padding: 18px;
+  color: #948bfc;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 1s;
+}
+.readMoreButton button:hover {
+  color: #ffffff;
+}
+.readMoreButton button::before {
+  content: "";
+  background-color: #948bfc;
+  position: absolute;
+  width: 570px;
+  height: 500px;
+  transform: rotate(317deg);
+  left: -279%;
+  top: -593%;
+  transition: all 0.5s;
+  z-index: -1;
+}
+.readMoreButton button:hover::before {
+  transform: translateX(300px);
+}
+/* left shape */
+.leftShape {
+  width: 100%;
+  background-color: #948bfc7e;
+  height: 100%;
+  position: absolute;
+  top: -40%;
+  left: -66%;
+  transform: rotate(111deg);
+}
+.rightShape {
+  width: 115%;
+  background-color: #948bfc7e;
+  height: 200%;
+  position: absolute;
+  top: -16%;
+  right: -90%;
+  transform: rotate(118deg);
+}
+/* left shape */
+/* section one CSS ends here */
+/* ===================================================================================== */
