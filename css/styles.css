@@ -20,6 +20,9 @@ a {
   margin: 0 auto;
   overflow: hidden;
 }
+section {
+  padding: 120px 0;
+}
 /* Default CSS ends */
 /* ===================================================================================== */
 
@@ -344,7 +347,6 @@ nav ul li ul li a::after {
 /* ===================================================================================== */
 /* section one CSS are starts here */
 .sectionOne {
-  padding: 120px 0;
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.55),
@@ -556,4 +558,269 @@ nav ul li ul li a::after {
 /* sidebar contact info ends */
 
 /* section one CSS ends here */
+/* ===================================================================================== */
+
+/* ===================================================================================== */
+/* section three CSS are started */
+/* section 3 left content */
+.sectionThree {
+  background-color: #e5e5e5;
+}
+.section3LeftContent {
+  width: 49%;
+  float: left;
+}
+.section3LeftContentContainer {
+  position: relative;
+  overflow: hidden;
+  height: 650px;
+}
+.section3LeftContentContainer .twoImage {
+  overflow: hidden;
+}
+.section3LeftContentContainer .twoImage img:first-child {
+  width: 42%;
+  float: left;
+  margin-right: 8px;
+}
+.section3LeftContentContainer .twoImage img:last-child {
+  width: 55%;
+  float: right;
+  transition: all 0.5s;
+}
+.section3LeftContentContainer:hover .twoImage img:last-child {
+  transform: translateX(-20px);
+}
+
+.section3LeftContentContainer .one1Image {
+  position: absolute;
+  left: 0%;
+  top: 35%;
+  z-index: 0;
+}
+.section3LeftContentContainer .one2Image {
+  position: absolute;
+  top: 19%;
+  left: 20%;
+  z-index: 5;
+}
+.section3LeftContentContainer .one2Image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.section3LeftContentContainer:hover .one2Image img {
+  transform: translateX(32px);
+}
+/* section 3 Right content */
+.section3RightContent {
+  width: 49%;
+  float: right;
+}
+.section3RightContentContainer h2 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  color: #948bfc;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.section3RightContentContainer h2:hover {
+  transform: rotate(-3deg);
+}
+.section3RightContentContainer .sectionThreeP1 {
+  font-size: 42px;
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.section3RightContentContainer .sectionThreeP1:hover {
+  letter-spacing: 2px;
+}
+.section3RightContentContainer .sectionThreeP1 b {
+  cursor: pointer;
+  color: #948bfc;
+}
+.section3RightContentContainer .sectionThreeP2 {
+  cursor: pointer;
+  font-size: 15px;
+  width: 85%;
+  color: #acacac;
+  font-weight: 600;
+  line-height: 25px;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+}
+.section3RightContentContainer .sectionThreeP2:hover {
+  color: #000000;
+}
+.section3RightContentContainer ul {
+  list-style: none;
+  margin-bottom: 30px;
+}
+.section3RightContentContainer ul li {
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+}
+.section3RightContentContainer ul li:hover {
+  transform: translateX(15px);
+}
+.section3RightContentContainer ul li i {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #948bfc;
+}
+.section3RightContentContainer ul li strong {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.knowledgeBox {
+  width: 80%;
+  padding: 15px;
+  background-color: #fafafa;
+  border: 1px solid #948bfc;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  cursor: pointer;
+  .knowledgeBoxLeftContent {
+    width: 20%;
+    float: left;
+  }
+}
+.knowledgeBox i {
+  transition: all 0.3s;
+  background-color: #948bfc;
+  padding: 20px;
+  color: #ffffff;
+  border-radius: 100%;
+  width: fit-content;
+  margin: 0 auto;
+}
+.knowledgeBox:hover i {
+  transform: scale(1.1);
+}
+.knowledgeBoxRightContent {
+  float: right;
+  width: 80%;
+}
+.knowledgeBox b {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 28px;
+  display: block;
+  width: 78%;
+  color: #000000;
+  transition: all 0.3s;
+}
+.knowledgeBox:hover b {
+  transform: translateX(-10px);
+}
+
+.getButtonAndCallButton {
+  width: 80%;
+  overflow: hidden;
+}
+
+.getStartedButton2 {
+  width: 50%;
+  float: left;
+}
+.getStartedButton2 button {
+  width: 80%;
+  font-size: 17px;
+  font-weight: 700;
+  outline: none;
+  border: 1px solid #948bfc;
+  background-color: #ffffff;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  padding: 15px;
+  color: #948bfc;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  float: left;
+  text-transform: uppercase;
+  transition: all 1s;
+}
+.getStartedButton2 button:hover {
+  color: #ffffff;
+}
+.getStartedButton2 button::before {
+  content: "";
+  background-color: #948bfc;
+  position: absolute;
+  width: 570px;
+  height: 500px;
+  transform: rotate(317deg);
+  left: -298%;
+  top: -620%;
+  transition: all 0.5s;
+  z-index: -1;
+}
+.getStartedButton2 button:hover::before {
+  transform: translateX(300px);
+}
+
+.callButtonDivision {
+  width: 50%;
+  float: right;
+  padding: 1px;
+}
+
+.callButtonDivision .callButton {
+  float: left;
+  width: 30%;
+}
+.callButtonDivision .callButton i {
+  font-size: 17px;
+  padding: 15px;
+  color: #948bfc;
+  border-radius: 100%;
+  border: 3px solid #948bfc;
+  transition: all 0.3s;
+}
+.callButtonDivision:hover i {
+  font-size: 21px;
+}
+.callButtonDetails {
+  float: right;
+  width: 70%;
+}
+.callButtonDetails span {
+  display: block;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 5px;
+  transition: all 0.3s;
+}
+.callButtonDivision:hover span {
+  font-size: 20px;
+}
+.callButtonDetails a {
+  width: 60%;
+  display: block;
+  color: #818181;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.callButtonDivision:hover a {
+  font-size: 18px;
+}
+
+/* section three CSS ends*/
 /* ===================================================================================== */
