@@ -204,7 +204,7 @@ nav ul li ul {
   height: fit-content;
   background-color: #948bfc;
   border-top: 1px solid #000000;
-  top: 20.5%;
+  top: 20%;
   transform-origin: bottom;
   transform: translateY(10px) scale(0);
   transition: all 0.1s;
@@ -358,6 +358,7 @@ nav ul li ul li a::after {
   overflow: hidden;
   position: relative;
 }
+
 .sectionOneContentContainer {
   width: 900px;
   margin: 0 auto;
@@ -444,5 +445,115 @@ nav ul li ul li a::after {
   transform: rotate(118deg);
 }
 /* left shape */
+
+/* left side slider pointer are starts here*/
+
+.sliderPointer {
+  position: absolute;
+  left: -0.8%;
+  transform: rotate(90deg);
+  bottom: 32%;
+}
+.pointOne {
+  width: 28px;
+  height: 28px;
+  background: #ffffff;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-right: 25px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+.pointOne:first-child:hover::before {
+  content: "";
+  background-color: #948bfc;
+  width: 60%;
+  height: 60%;
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pointOne:nth-child(2)::before {
+  content: "";
+  background-color: #948bfc;
+  width: 60%;
+  height: 60%;
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pointOne:last-child {
+  margin-right: 0;
+}
+.pointOne:last-child:hover::before {
+  content: "";
+  background-color: #948bfc;
+  width: 60%;
+  height: 60%;
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* left side slider pointer ends */
+
+/* sidebar contact info are starts  */
+.sidbarContactInfo {
+  transform: rotate(-90deg);
+  padding: 10px;
+  position: absolute;
+  z-index: 10;
+  right: -15.5%;
+  bottom: 40%;
+}
+
+.sidbarContactInfo .mobile {
+  display: inline;
+  margin-right: 10px;
+}
+.sidbarContactInfo .mobile i {
+  margin-right: 5px;
+}
+.sidbarContactInfo .email i {
+  margin-right: 5px;
+}
+.sidbarContactInfo .email {
+  display: inline;
+  margin-right: 10px;
+}
+.sidbarContactInfo .social {
+  display: inline;
+}
+.sidbarContactInfo .social span {
+  margin-right: 5px;
+}
+.sidbarContactInfo .social a {
+  margin-right: 10px;
+}
+
+.sidbarContactInfo i {
+  font-size: 16px;
+  color: #ffffff;
+}
+.sidbarContactInfo a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.sidbarContactInfo span {
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+}
+/* sidebar contact info ends */
+
 /* section one CSS ends here */
 /* ===================================================================================== */
