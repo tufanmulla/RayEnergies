@@ -18,7 +18,9 @@ a {
 .container {
   width: 1200px;
   margin: 0 auto;
-  overflow: hidden;
+  content: "";
+  clear: both;
+  display: table;
 }
 /* Default CSS ends */
 /* ===================================================================================== */
@@ -405,7 +407,7 @@ nav ul li ul li a::after {
 }
 .readMoreButton {
   width: 185px;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
 }
 .readMoreButton button {
   width: 100%;
@@ -414,7 +416,7 @@ nav ul li ul li a::after {
   outline: none;
   border: none;
   background-color: #ffffff;
-  border-radius: 1px;
+  border-radius: 5px;
   letter-spacing: 2px;
   padding: 18px;
   color: #948bfc;
@@ -448,17 +450,17 @@ nav ul li ul li a::after {
   background-color: #948bfc7e;
   height: 100%;
   position: absolute;
-  top: -40%;
+  top: -62%;
   left: -72%;
   transform: rotate(111deg);
 }
 
 .rightShape {
   position: absolute;
-  border-right: 900px solid #948bfc7e;
-  border-bottom: 700px solid transparent;
+  border-right: 1300px solid #948bfc7e;
+  border-bottom: 786px solid transparent;
   top: -22%;
-  right: -19%;
+  right: -37%;
   transform: rotate(90deg);
 }
 /* left shape */
@@ -469,7 +471,7 @@ nav ul li ul li a::after {
   position: absolute;
   left: -0.8%;
   transform: rotate(90deg);
-  bottom: 44%;
+  bottom: 52%;
 }
 .pointOne {
   width: 28px;
@@ -529,7 +531,7 @@ nav ul li ul li a::after {
   position: absolute;
   z-index: 10;
   right: -18.5%;
-  bottom: 52%;
+  bottom: 64%;
 }
 
 .sidbarContactInfo .mobile {
@@ -616,7 +618,7 @@ nav ul li ul li a::after {
 /* section three CSS are started */
 /* section 3 left content */
 .sectionThree {
-  padding: 20px 0 0 0;
+  padding: 290px 0 0 0;
   background-color: #eff4fa;
 }
 .section3LeftContent {
@@ -880,6 +882,119 @@ nav ul li ul li a::after {
 
 /* ===================================================================================== */
 /* section Two CSS are starts here*/
+.sectionTwo {
+  width: 100%;
+  padding: 20px 0;
+  background-color: transparent;
+  position: absolute;
+  z-index: 20;
+  top: 138%;
+}
+.sectionTwoBoxContainer {
+  content: "";
+  clear: both;
+  display: table;
+}
+.sectionTwoBox {
+  width: 30%;
+  background-color: #ffffff;
+  float: left;
+  margin-right: 60px;
+  padding: 30px;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.sectionTwoBox:hover {
+  transform: scaleY(1.1);
+}
+.sectionTwoBox:last-child {
+  margin-right: 0;
+}
+.sectionTwoBoxImg {
+  margin-bottom: 25px;
+}
+.sectionTwoBoxImg img {
+  width: 70px;
+  cursor: crosshair;
+  transition: all 0.3s;
+}
+.sectionTwoBox:hover .sectionTwoBoxImg img {
+  transform: scale3d(-1.4, 1.4, 1);
+}
+.secitonTwoBoxContent article h2 {
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #000000;
+  cursor: pointer;
+}
+.secitonTwoBoxContent article {
+  margin-bottom: 25px;
+}
+.secitonTwoBoxContent article p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #898989;
+  cursor: pointer;
+}
 
+.sectionTwoBoxButton {
+  width: 185px;
+}
+.sectionTwoBoxButton button {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+  border: 1px solid #948bfc;
+  background-color: #ffffff;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  padding: 18px;
+  color: #948bfc;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 1s;
+}
+.sectionTwoBoxButton button:hover {
+  color: #ffffff;
+}
+.sectionTwoBoxButton button::before {
+  content: "";
+  background-color: #948bfc;
+  position: absolute;
+  width: 570px;
+  height: 500px;
+  transform: rotate(317deg);
+  left: -279%;
+  top: -593%;
+  transition: all 0.5s;
+  z-index: -1;
+}
+.sectionTwoBoxButton button:hover::before {
+  transform: translateX(300px);
+}
+
+/* rightShapeOf the SectionTwoContentBox */
+.ringShape {
+  position: absolute;
+  width: 190px;
+  height: 190px;
+  border: 8px solid #948bfc86;
+  border-radius: 100%;
+  top: -25%;
+  right: -25%;
+  transition: all 0.3s;
+}
+.sectionTwoBox:hover .ringShape {
+  border: 8px solid #948bfc;
+}
+/* rightShapeOf the SectionTwoContentBox */
 /* section Two CSS ends */
 /* ===================================================================================== */
