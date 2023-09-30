@@ -20,9 +20,6 @@ a {
   margin: 0 auto;
   overflow: hidden;
 }
-section {
-  padding: 120px 0;
-}
 /* Default CSS ends */
 /* ===================================================================================== */
 
@@ -293,7 +290,7 @@ nav ul li ul li a::after {
 .searchField {
   position: absolute;
   width: fit-content;
-  right: 373px;
+  right: 365px;
 }
 
 .searchField input {
@@ -347,6 +344,7 @@ nav ul li ul li a::after {
 /* ===================================================================================== */
 /* section one CSS are starts here */
 .sectionOne {
+  padding: 120px 0 0 0;
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.55),
@@ -372,6 +370,11 @@ nav ul li ul li a::after {
   color: #ffffff;
   letter-spacing: 1px;
   margin-bottom: 30px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.sectionOneContentContainer article b:hover {
+  transform: rotate(1deg);
 }
 .sectionOneContentContainer article h1 {
   width: 800px;
@@ -380,6 +383,11 @@ nav ul li ul li a::after {
   color: #ffffff;
   letter-spacing: 1px;
   margin-bottom: 25px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.sectionOneContentContainer article h1:hover {
+  letter-spacing: 3px;
 }
 .sectionOneContentContainer article p {
   width: 600px;
@@ -388,9 +396,16 @@ nav ul li ul li a::after {
   color: #ffffff;
   letter-spacing: 1px;
   margin-bottom: 35px;
+  transition: all 0.3s;
+  line-height: 27px;
+}
+.sectionOneContentContainer article p:hover {
+  letter-spacing: 3px;
+  width: 750px;
 }
 .readMoreButton {
   width: 185px;
+  margin-bottom: 50px;
 }
 .readMoreButton button {
   width: 100%;
@@ -434,17 +449,17 @@ nav ul li ul li a::after {
   height: 100%;
   position: absolute;
   top: -40%;
-  left: -66%;
+  left: -72%;
   transform: rotate(111deg);
 }
+
 .rightShape {
-  width: 115%;
-  background-color: #948bfc7e;
-  height: 200%;
   position: absolute;
-  top: -16%;
-  right: -90%;
-  transform: rotate(118deg);
+  border-right: 900px solid #948bfc7e;
+  border-bottom: 700px solid transparent;
+  top: -22%;
+  right: -19%;
+  transform: rotate(90deg);
 }
 /* left shape */
 
@@ -454,7 +469,7 @@ nav ul li ul li a::after {
   position: absolute;
   left: -0.8%;
   transform: rotate(90deg);
-  bottom: 32%;
+  bottom: 44%;
 }
 .pointOne {
   width: 28px;
@@ -513,8 +528,8 @@ nav ul li ul li a::after {
   padding: 10px;
   position: absolute;
   z-index: 10;
-  right: -15.5%;
-  bottom: 40%;
+  right: -18.5%;
+  bottom: 52%;
 }
 
 .sidbarContactInfo .mobile {
@@ -523,10 +538,19 @@ nav ul li ul li a::after {
 }
 .sidbarContactInfo .mobile i {
   margin-right: 5px;
+  transition: all 0.3s;
+}
+.sidbarContactInfo .mobile:hover i {
+  transform: scale(1.4);
 }
 .sidbarContactInfo .email i {
   margin-right: 5px;
+  transition: all 0.3s;
 }
+.sidbarContactInfo .email:hover i {
+  transform: scale(1.4);
+}
+
 .sidbarContactInfo .email {
   display: inline;
   margin-right: 10px;
@@ -540,6 +564,22 @@ nav ul li ul li a::after {
 .sidbarContactInfo .social a {
   margin-right: 10px;
 }
+.sidbarContactInfo .social a:first-child i {
+  transition: all 0.3s;
+}
+.sidbarContactInfo .social a:nth-child(2) i {
+  transition: all 0.6s;
+}
+.sidbarContactInfo .social a:nth-child(3) i {
+  transition: all 0.8s;
+}
+.sidbarContactInfo .social a:last-child i {
+  transition: all 1.2s;
+}
+
+.sidbarContactInfo .social:hover i {
+  transform: scale(1.4);
+}
 
 .sidbarContactInfo i {
   font-size: 16px;
@@ -547,14 +587,26 @@ nav ul li ul li a::after {
 }
 .sidbarContactInfo a {
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 500;
   color: #ffffff;
 }
 .sidbarContactInfo span {
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 500;
   color: #ffffff;
 }
+
+/* curve overlay */
+.curveOverlay {
+  margin-bottom: -6px;
+  position: relative;
+  z-index: 5;
+}
+.curveOverlay img {
+  width: 100%;
+  height: 178px;
+}
+/* curve overlay */
 /* sidebar contact info ends */
 
 /* section one CSS ends here */
@@ -564,7 +616,8 @@ nav ul li ul li a::after {
 /* section three CSS are started */
 /* section 3 left content */
 .sectionThree {
-  background-color: #e5e5e5;
+  padding: 20px 0 0 0;
+  background-color: #eff4fa;
 }
 .section3LeftContent {
   width: 49%;
@@ -823,4 +876,10 @@ nav ul li ul li a::after {
 }
 
 /* section three CSS ends*/
+/* ===================================================================================== */
+
+/* ===================================================================================== */
+/* section Two CSS are starts here*/
+
+/* section Two CSS ends */
 /* ===================================================================================== */
