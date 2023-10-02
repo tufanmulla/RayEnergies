@@ -22,6 +22,36 @@ a {
   clear: both;
   display: table;
 }
+
+/* for title design */
+.titleDiv {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.titleDiv article h2 {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  color: #222222;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.titleDiv article p {
+  text-align: center;
+  margin: 0 auto;
+  color: #707070;
+  letter-spacing: 1px;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 400;
+  width: 530px;
+  cursor: text;
+}
+
+/* for title design */
 /* Default CSS ends */
 /* ===================================================================================== */
 
@@ -1024,38 +1054,13 @@ nav ul li ul li a::after {
 /* ===================================================================================== */
 /* section Four CSS are starts here */
 .sectionFour {
-  padding: 120px 0;
+  padding: 120px 0 250px 0;
 }
-.sectionFourTitleDiv {
-  width: 800px;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
+
 .serivceBoxContainer {
   display: table;
   clear: both;
   content: "";
-}
-.sectionFourTitleDiv article h2 {
-  text-align: center;
-  font-size: 38px;
-  font-weight: 700;
-  color: #222222;
-  letter-spacing: 1px;
-  margin: 0 auto;
-  margin-bottom: 15px;
-  cursor: pointer;
-}
-.sectionFourTitleDiv article p {
-  text-align: center;
-  margin: 0 auto;
-  color: #707070;
-  letter-spacing: 1px;
-  font-size: 17px;
-  line-height: 27px;
-  font-weight: 400;
-  width: 530px;
-  cursor: text;
 }
 
 /* service box */
@@ -1209,12 +1214,13 @@ nav ul li ul li a::after {
 /* ===================================================================================== */
 /* section Five CSS are starts here */
 .sectionFive {
-  padding: 120px 0;
+  padding: 150px 0 120px 0;
   width: 100%;
   background-color: #eff4fa;
   content: "";
   clear: both;
   display: table;
+  position: relative;
 }
 .sectionFiveLeftContent {
   float: left;
@@ -1433,4 +1439,210 @@ nav ul li ul li a::after {
   width: 75%;
 }
 /* section Five CSS ends here */
+/* ===================================================================================== */
+
+/*===================================================================================== */
+/* questionBox CSS starts here */
+.questionBox {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.questionBoxContaiainer {
+  background-color: #948bfc;
+  width: 100%;
+  border-radius: 12px;
+  content: "";
+  clear: both;
+  display: table;
+  padding: 50px;
+}
+.questionBoxContent1 {
+  float: left;
+  width: 30%;
+  margin-right: 20px;
+}
+.questionBoxContent1 h2 {
+  font-size: 35px;
+  vertical-align: middle;
+  font-weight: 900;
+  letter-spacing: 0.1;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.questionBoxContaiainer:hover h2 {
+  transform: rotate(-3deg);
+}
+.questionBoxContent2 {
+  width: 30%;
+  margin-right: 20x;
+  float: left;
+  text-align: center;
+}
+.questionBoxContent2 i {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  color: #948bfc;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 100%;
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.questionBoxContaiainer:hover .questionBoxContent2 i {
+  transform: scale(1.05);
+}
+
+.questionBoxContent3 {
+  width: 30%;
+  float: right;
+}
+.questionBoxContent3 b {
+  display: block;
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 900;
+  margin-bottom: 12px;
+  transition: all 0.3s;
+}
+.questionBoxContaiainer:hover .questionBoxContent3 b {
+  transform: rotate(3deg);
+}
+.questionBoxContent3 span {
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  transition: all 0.3;
+}
+.questionBoxContaiainer:hover .questionBoxContent3 span {
+  transform: rotate(-3deg);
+}
+/* questionBox CSS ends here */
+/* ===================================================================================== */
+
+/* ===================================================================================== */
+/* section Six CSS are starts here */
+.sectionSix {
+  padding: 120px 0;
+}
+.sectionSixLeftContent {
+  width: 49%;
+  float: left;
+}
+.sectionSixMainContent {
+  content: "";
+  clear: both;
+  display: table;
+}
+.frequentlyAskedQuestion {
+  content: "";
+  display: table;
+  clear: both;
+}
+.frequentlyAskedQuestion ul {
+  list-style: none;
+}
+.frequentlyAskedQuestion ul li {
+  padding: 20px;
+  margin-bottom: 40px;
+  position: relative;
+  height: 50px;
+}
+.frequentlyAskedQuestion ul li:hover {
+  height: fit-content;
+}
+
+.frequentlyAskedQuestion ul li::after {
+  content: "";
+  position: absolute;
+  background-color: #acacac;
+  left: 50%;
+  bottom: -25px;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  width: 93%;
+  height: 1px;
+}
+.frequentlyAskedQuestion ul li:last-child {
+  margin-bottom: 0;
+}
+.frequentlyAskedQuestion ul li span {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  float: left;
+  width: 85%;
+  color: #494949;
+  transition: all 0.3s;
+}
+.frequentlyAskedQuestion ul li:hover span {
+  color: #948bfc;
+}
+.frequentlyAskedQuestion ul li i {
+  float: right;
+  text-align: end;
+  color: #494949;
+  font-size: 20px;
+  width: 15%;
+  transition: all 0.3s;
+}
+.frequentlyAskedQuestion ul li:hover i {
+  color: #948bfc;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.frequentlyAskedQuestion ul li p {
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 50px;
+  padding: 8px;
+  opacity: 0;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: all 0.3s;
+}
+.frequentlyAskedQuestion ul li:hover p {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.sectionSixRightContent {
+  width: 45%;
+  float: right;
+}
+.frequentlyAskedQuestionPicture {
+  height: 470px;
+}
+.frequentlyAskedQuestionPicture img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.frequentlyAskedQuestion ul li:last-child .abTestingSteps {
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: all 0.3s;
+}
+.frequentlyAskedQuestion ul li:last-child .abTestingSteps p {
+  opacity: unset;
+  transform: unset;
+  margin-top: 0px;
+}
+.frequentlyAskedQuestion ul li:last-child .abTestingSteps p:first-child {
+  margin-top: 75px;
+}
+.frequentlyAskedQuestion ul li:last-child .abTestingSteps p span {
+  float: unset;
+}
+.frequentlyAskedQuestion ul li:last-child:hover .abTestingSteps {
+  transform: scaleY(1);
+}
+/* section Six CSS ends */
 /* ===================================================================================== */
