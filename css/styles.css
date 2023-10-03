@@ -1568,6 +1568,9 @@ nav ul li ul li a::after {
   width: 93%;
   height: 1px;
 }
+.frequentlyAskedQuestion ul li:hover:after {
+  background-color: #4b3bf8;
+}
 .frequentlyAskedQuestion ul li:last-child {
   margin-bottom: 0;
 }
@@ -1583,13 +1586,29 @@ nav ul li ul li a::after {
 .frequentlyAskedQuestion ul li:hover span {
   color: #948bfc;
 }
-.frequentlyAskedQuestion ul li i {
+.frequentlyAskedQuestion ul li .fa-circle-plus {
   float: right;
   text-align: end;
   color: #494949;
   font-size: 20px;
-  width: 15%;
+  width: 7%;
   transition: all 0.3s;
+}
+.frequentlyAskedQuestion ul li:hover .fa-circle-plus {
+  display: none;
+}
+.frequentlyAskedQuestion ul li .fa-circle-minus {
+  float: right;
+  text-align: end;
+  color: #494949;
+  font-size: 20px;
+  width: 7%;
+  display: none;
+  transition: all 0.3s;
+}
+
+.frequentlyAskedQuestion ul li:hover .fa-circle-minus {
+  display: block;
 }
 .frequentlyAskedQuestion ul li:hover i {
   color: #948bfc;
@@ -1652,4 +1671,106 @@ nav ul li ul li a::after {
   transform: scaleY(1);
 }
 /* section Six CSS ends */
+/* ===================================================================================== */
+
+/* ===================================================================================== */
+/* section Seven CSS are starts here */
+.sectionSeven {
+  margin: 0 0 120px 0;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url(../images/sectionSeven/sectionSevenBackgroundImg.jpg);
+  background-position: center;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  height: 80vh;
+}
+.sectionSeven .leftShape {
+  background-color: #ffffff4f;
+  border-right: 1300px;
+  border-bottom: 768px;
+  position: absolute;
+  top: 25%;
+  left: -65%;
+  transform: rotate(115deg);
+  transition: all 0.3s;
+}
+.sectionSeven:hover .leftShape {
+  left: -130%;
+}
+
+.sectionSeven .rightShape {
+  position: absolute;
+  border-right: 1300px solid #948bfc7e;
+  border-bottom: 786px solid transparent;
+  top: -55%;
+  right: -45%;
+  transform: rotate(95deg);
+  transition: all 0.3s;
+}
+.sectionSeven:hover .rightShape {
+  right: -130%;
+}
+.videoPlayButtonContainer {
+  height: 505px;
+  cursor: pointer;
+}
+
+.videoPlayButton {
+  width: 120px;
+  background-color: #948bfc7e;
+  height: 120px;
+  border-radius: 10px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform-origin: center;
+  transform: translate(-50%, -50%) scale(1);
+  z-index: 10;
+  transition: all 0.5s;
+}
+.videoPlayButtonContainer:hover .videoPlayButton {
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.playButton {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.playButton i {
+  font-size: 45px;
+  color: #ffffff;
+  transition: all 0.8s;
+}
+.playButton .fa-pause {
+  display: none;
+}
+.videoPlayButtonContainer:hover .videoPlayButton .playButton i {
+  transform: scale(2);
+}
+.videoPlayButtonContainer:hover .videoPlayButton .playButton .fa-play {
+  display: none;
+}
+.videoPlayButtonContainer:hover .videoPlayButton .playButton .fa-pause {
+  display: block;
+}
+.videoPlayButtonContainer video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: all 0.8s;
+}
+.videoPlayButtonContainer:hover video {
+  opacity: 1;
+}
+/* section Seven CSS ends here */
 /* ===================================================================================== */
