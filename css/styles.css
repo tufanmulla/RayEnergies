@@ -1687,9 +1687,11 @@ nav ul li ul li a::after {
   background-clip: border-box;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
-  position: relative;
   height: 80vh;
+}
+.sectionSevenContent {
+  position: relative;
+  overflow: hidden;
 }
 .sectionSeven .leftShape {
   background-color: #ffffff4f;
@@ -1776,9 +1778,170 @@ nav ul li ul li a::after {
 /* ===================================================================================== */
 
 /* ===================================================================================== */
+/* section Eight CSS are starts here */
+.sectionEight {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  margin-top: -190px;
+  transition: all 0.5s;
+}
+.sectionSeven:hover .sectionEight {
+  bottom: 100%;
+}
+.sectionEight .sectionEightContentContainer {
+  background-color: #ebebeb;
+  overflow: hidden;
+  border-radius: 20px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+.sectionEightLeftContent {
+  width: 40%;
+  float: left;
+}
+.leftContentImg {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.leftContentImg img {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: crosshair;
+}
+
+.sectionEightRightContent {
+  width: 58%;
+  height: 600px;
+  float: right;
+  position: relative;
+}
+.eightRightContentContainer {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.eightRightContentContainer article {
+  margin-bottom: 30px;
+}
+.eightRightContentContainer article h3 {
+  font-size: 38px;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.eightRightContentContainer article h3 b {
+  color: #948bfc;
+}
+.eightRightContentContainer article span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #616161;
+  margin-bottom: 30px;
+}
+
+.nameAndEmail {
+  margin-bottom: 25px;
+  display: block;
+}
+.nameAndEmail input {
+  display: inline-block;
+  width: 47%;
+  padding: 15px 12px;
+  font-size: 15px;
+  color: #646464;
+  font-weight: 400;
+  outline: none;
+  border: none;
+  margin-right: 29px;
+  border-radius: 3px;
+}
+.nameAndEmail input:last-child {
+  margin-right: 0;
+}
+.numberAndSubject {
+  margin-bottom: 25px;
+  display: block;
+}
+.numberAndSubject input {
+  display: inline-block;
+  width: 47%;
+  padding: 15px 12px;
+  font-size: 15px;
+  outline: none;
+  font-weight: 400;
+  color: #646464;
+  border: none;
+  margin-right: 29px;
+  border-radius: 3px;
+}
+.numberAndSubject input:last-child {
+  margin-right: 0;
+}
+.messageField textarea {
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 15px;
+  margin-bottom: 25px;
+  color: #646464;
+}
+
+.messageFieldButton {
+  width: 185px;
+}
+.messageFieldButton button {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  padding: 18px;
+  color: #948bfc;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 1s;
+}
+.messageFieldButton button:hover {
+  color: #ffffff;
+}
+.messageFieldButton button::before {
+  content: "";
+  background-color: #948bfc;
+  position: absolute;
+  width: 570px;
+  height: 500px;
+  transform: rotate(317deg);
+  left: -279%;
+  top: -593%;
+  transition: all 0.5s;
+  z-index: -1;
+}
+.messageFieldButton button:hover::before {
+  transform: translateX(300px);
+}
+/* section Eight CSS ends */
+/* ===================================================================================== */
+
+/* ===================================================================================== */
 /* section Nine CSS are starts here */
 .sectionNine {
-  padding: 120px 0;
+  padding: 670px 0 120px 0;
 }
 .sectionNine .container {
   width: 1070px;
@@ -2012,6 +2175,5 @@ span.profileSocialTooltip {
 .sectionNineBox:hover .contact a {
   letter-spacing: 3px;
 }
-
 /* section Nine CSS are ends */
 /* ===================================================================================== */

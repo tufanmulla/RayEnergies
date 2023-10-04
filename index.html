@@ -681,27 +681,106 @@
     <!-- ================================================================================= -->
     <!-- section Seven are starts-->
     <section class="sectionSeven">
-      <div class="videoPlayButtonContainer">
-        <div class="videoPlayButton">
-          <div class="playButton">
-            <i class="fa-solid fa-play"></i>
-            <i class="fa-solid fa-pause"></i>
+      <div class="sectionSevenContent">
+        <div class="videoPlayButtonContainer">
+          <div class="videoPlayButton">
+            <div class="playButton">
+              <i class="fa-solid fa-play"></i>
+              <i class="fa-solid fa-pause"></i>
+            </div>
+          </div>
+          <video
+            autoplay
+            controls
+            muted
+            poster="./images/sectionSeven/sectionSevenBackgroundImg.jpg"
+          >
+            <source
+              src="./videos/sectionSeven/sectionSevenBackgroundVideo.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+        <div class="leftShape"></div>
+        <div class="rightShape"></div>
+      </div>
+
+      <!-- ================================================================================= -->
+      <!-- section Eight are starts here -->
+      <section class="sectionEight">
+        <div class="container">
+          <div class="sectionEightContentContainer">
+            <div class="sectionEightLeftContent">
+              <div class="leftContentImg">
+                <img
+                  src="./images/sectionEight/sectionEightLeftImgPic.jpg"
+                  alt="Registration Signal Image"
+                />
+              </div>
+            </div>
+            <div class="sectionEightRightContent">
+              <div class="eightRightContentContainer">
+                <article>
+                  <h3>Our Technology <b>Expert</b></h3>
+                  <span
+                    >Your email address will not be published. Required fields
+                    are marked</span
+                  >
+                </article>
+                <div class="messageField">
+                  <for onclick="event.preventDefault()">
+                    <div class="nameAndEmail">
+                      <input
+                        type="text"
+                        id="messageFieldName"
+                        name="messageFieldName"
+                        placeholder="Your Name"
+                        required
+                      />
+                      <input
+                        type="email"
+                        id="messageFieldEmail"
+                        name="messageFieldEmail"
+                        placeholder="Your Email"
+                        required
+                      />
+                    </div>
+                    <div class="numberAndSubject">
+                      <input
+                        type="number"
+                        id="messageFieldNumber"
+                        name="messageFieldNumber"
+                        placeholder="Your Number"
+                        required
+                      />
+                      <input
+                        type="text"
+                        id="messageFieldSubject"
+                        name="messageFieldSubject"
+                        placeholder="Your Subject"
+                        required
+                      />
+                    </div>
+                    <textarea
+                      name="messageFieldComment"
+                      id="messageFieldComment"
+                      cols="30"
+                      rows="10"
+                      placeholder="Your Comment"
+                      required
+                    ></textarea>
+                    <div class="messageFieldButton">
+                      <button type="submit">Send Message</button>
+                    </div>
+                  </for>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <video
-          autoplay
-          controls
-          muted
-          poster="./images/sectionSeven/sectionSevenBackgroundImg.jpg"
-        >
-          <source
-            src="./videos/sectionSeven/sectionSevenBackgroundVideo.mp4"
-            type="video/mp4"
-          />
-        </video>
-      </div>
-      <div class="leftShape"></div>
-      <div class="rightShape"></div>
+      </section>
+      <!-- section Eight ends -->
+      <!-- ================================================================================= -->
     </section>
     <!-- section Seven ends -->
     <!-- ================================================================================= -->
