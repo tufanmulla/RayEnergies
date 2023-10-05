@@ -2180,3 +2180,129 @@ span.profileSocialTooltip {
 }
 /* section Nine CSS are ends */
 /* ===================================================================================== */
+
+/* ===================================================================================== */
+/* section Ten CSS are starts here */
+.sectionTen {
+  padding: 0 0 120px 0;
+}
+.sectionTenContent {
+  width: 99%;
+  margin: 0 auto;
+  content: "";
+  clear: both;
+  display: table;
+  margin-bottom: 30px;
+}
+.sectionTenBox {
+  width: 251px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px -1px #948bfc;
+  position: relative;
+  overflow: hidden;
+}
+.sectionTenBox:hover {
+  cursor: pointer;
+}
+.sectionTenBox:last-child {
+  margin-right: 0;
+}
+.tenBoxImg {
+  width: 100%;
+  height: 280px;
+}
+.tenBoxImg img {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.sectionTenBoxBall {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  border-radius: 100%;
+  left: 50%;
+  background-color: #948bfc;
+  top: 112%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: all 0.7s;
+  z-index: 0;
+  opacity: 0;
+}
+.sectionTenBox:hover .sectionTenBoxBall {
+  top: 55%;
+  opacity: 1;
+}
+.sectionTenBoxBall:hover {
+  background-color: #ffffff;
+}
+.sectionTenBoxBall i {
+  margin-top: 22px;
+  font-size: 25px;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+.sectionTenBoxBall:hover i {
+  color: #948bfc;
+}
+
+.tenBoxContent {
+  width: 100%;
+  background-color: #ffffff;
+  height: fit-content;
+  padding: 20px 10px;
+  transition: all 0.3s;
+  border-radius: 8px;
+  border-bottom: 3px solid #948bfc;
+  box-shadow: 0 0 5px -1px #948bfc;
+  z-index: 2;
+  position: relative;
+}
+.tenBoxContent h3 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #000000d6;
+  text-align: center;
+  margin-bottom: 8px;
+  transition: all 0.3s;
+}
+.sectionTenBox:hover .tenBoxContent h3 {
+  color: #948bfc;
+}
+.tenBoxContent strong {
+  display: block;
+  font-weight: 400;
+  color: #1f1f1fa1;
+  font-size: 17px;
+  text-align: center;
+}
+.sectionTenBox:hover .tenBoxContent {
+  transform: scale(1.05);
+}
+.seeMoreProject {
+  width: 700px;
+  margin: 0 auto;
+  border: 1.5px dashed #948bfc;
+  padding: 20px;
+}
+.seeMoreProject p {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 1px;
+}
+.seeMoreProject p a {
+  color: #948bfc;
+  text-decoration: underline;
+  cursor: pointer !important;
+}
+/* section Ten CSS ends here */
+/* ===================================================================================== */
