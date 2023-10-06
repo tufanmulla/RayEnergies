@@ -2335,12 +2335,12 @@ span.profileSocialTooltip::before {
   clear: both;
   display: table;
 }
-.sectonElevenLeftContent {
+.sectionElevenLeftContent {
   float: left;
   width: 55%;
 }
 
-.sectonElevenLeftContent b {
+.sectionElevenLeftContent b {
   display: block;
   font-size: 20px;
   color: #948bfc;
@@ -2348,8 +2348,12 @@ span.profileSocialTooltip::before {
   letter-spacing: 1px;
   margin-bottom: 18px;
   cursor: pointer;
+  transition: all 0.3s;
 }
-.sectonElevenLeftContent h2 {
+.sectionElevenLeftContent:hover b {
+  transform: rotate(-3deg);
+}
+.sectionElevenLeftContent h2 {
   font-size: 42px;
   display: block;
   width: 473px;
@@ -2359,8 +2363,12 @@ span.profileSocialTooltip::before {
   letter-spacing: 1px;
   position: relative;
   cursor: pointer;
+  transition: all 0.3s;
 }
-.sectonElevenLeftContent h2::before {
+.sectionElevenLeftContent:hover h2 {
+  letter-spacing: 3px;
+}
+.sectionElevenLeftContent h2::before {
   content: "";
   position: absolute;
   bottom: -18%;
@@ -2370,13 +2378,17 @@ span.profileSocialTooltip::before {
   background-color: #b3b3b3;
 }
 
-.sectonElevenLeftContent p {
+.sectionElevenLeftContent p {
   width: 560px;
   line-height: 29px;
   font-size: 20px;
   letter-spacing: 0.5px;
   color: #727272;
   margin-bottom: 40px;
+  transition: all 0.3s;
+}
+.sectionElevenLeftContent:hover p {
+  color: #3a3a3a;
 }
 
 .ratings {
@@ -2396,12 +2408,21 @@ span.profileSocialTooltip::before {
   color: #363636;
   margin-bottom: 15px;
   cursor: pointer;
+  transition: all 0.3s;
+}
+.sectionElevenLeftContent:hover .ratingName h4 {
+  letter-spacing: 3px;
 }
 .ratingName span {
   color: #363636;
   font-weight: 400;
+  display: block;
   letter-spacing: 1px;
   font-size: 20px;
+  transition: all 0.3s;
+}
+.sectionElevenLeftContent:hover .ratingName span {
+  transform: rotate(3deg);
 }
 
 .ratings .rating {
@@ -2415,6 +2436,13 @@ span.profileSocialTooltip::before {
   cursor: pointer;
   position: relative;
   transition: all 0.3s;
+}
+
+.sectionElevenLeftContent:hover .rating ul li {
+  margin-right: 5px;
+}
+.sectionElevenLeftContent:hover .rating ul li:last-child {
+  margin-right: 0;
 }
 .rating ul li::after {
   font-size: 15px;
@@ -2439,6 +2467,10 @@ span.profileSocialTooltip::before {
 .rating ul li i {
   font-size: 21px;
   color: #948bfc;
+  transition: all 0.3s;
+}
+.sectionElevenLeftContent:hover .rating ul li i {
+  transform: scale(1.2);
 }
 
 .sectionElevenRightContent {
@@ -2466,12 +2498,15 @@ span.profileSocialTooltip::before {
   width: 300px;
 }
 .threeLine .line {
-  width: 50px;
+  width: 35px;
   height: 5px;
   border-radius: 5px;
   margin-right: 10px;
   display: inline-block;
   background-color: #464646;
+}
+.threeLine .line:nth-child(2) {
+  background-color: #948bfc;
 }
 /* section Eleven CSS ends here */
 /* ===================================================================================== */
