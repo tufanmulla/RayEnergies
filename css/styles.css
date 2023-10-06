@@ -2049,6 +2049,7 @@ nav ul li ul li a::after {
 }
 .profileOfMembers ul li:last-child {
   margin-left: 30px;
+  margin-bottom: 0;
   opacity: 0;
   transform: scale(0);
   transition: all 1s;
@@ -2076,7 +2077,7 @@ nav ul li ul li a::after {
 
 .profileOfMembers ul li a {
   float: left;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 /* hover and anitmate the ul li of .profileOfMembers */
@@ -2109,10 +2110,24 @@ nav ul li ul li a::after {
 span.profileSocialTooltip {
   font-size: 14px;
   color: #ffffff;
+  background-color: #948bfc;
+  padding: 5px;
+  border-radius: 5px;
   letter-spacing: 1px;
+  text-align: center;
   font-weight: 500;
   opacity: 0;
   transition: all 0.5s;
+  position: relative;
+}
+span.profileSocialTooltip::before {
+  content: "";
+  position: absolute;
+  border-right: 12px solid #948bfc;
+  border-bottom: 12px solid #ffffff00;
+  left: -4%;
+  top: 32.5%;
+  transform: rotate(225deg) translate(15%, 0);
 }
 .sectionNineBox .profileOfMembers ul li:hover span {
   letter-spacing: 2px;
@@ -2398,6 +2413,28 @@ span.profileSocialTooltip {
 .rating ul li {
   display: inline;
   cursor: pointer;
+  position: relative;
+  transition: all 0.3s;
+}
+.rating ul li::after {
+  font-size: 15px;
+  content: "5 Star";
+  position: absolute;
+  color: #ffffff;
+  background-color: #948bfc;
+  top: 110%;
+  left: -72%;
+  text-align: center;
+  padding: 2px 4px;
+  width: 42px;
+  border-radius: 10px;
+  font-weight: 400;
+  transform-origin: bottom;
+  transform: scale(0);
+  transition: all 0.2s;
+}
+.rating ul li:hover::after {
+  transform: scale(1);
 }
 .rating ul li i {
   font-size: 21px;
@@ -2423,6 +2460,18 @@ span.profileSocialTooltip {
 }
 .sectionElevenRightContent:hover .sectionElevenRightImg img {
   border-top-left-radius: 70px;
+}
+
+.threeLine {
+  width: 300px;
+}
+.threeLine .line {
+  width: 50px;
+  height: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: inline-block;
+  background-color: #464646;
 }
 /* section Eleven CSS ends here */
 /* ===================================================================================== */
