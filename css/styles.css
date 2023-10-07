@@ -2510,3 +2510,157 @@ span.profileSocialTooltip::before {
 }
 /* section Eleven CSS ends here */
 /* ===================================================================================== */
+
+/* ===================================================================================== */
+/* section Twelve CSS are starts here */
+.sectionTwelve {
+  padding: 0 0 120px 0;
+}
+.sectionTwelveBoxContainer {
+  content: "";
+  clear: both;
+  display: table;
+}
+.sectionTwelveBox {
+  width: 32%;
+  float: left;
+  padding-bottom: 30px;
+  margin-right: 24px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px -10px #948bfc;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.sectionTwelveBox:before {
+  content: "";
+  position: absolute;
+  border: 5px solid #948bfc75;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  bottom: -21px;
+  right: -55px;
+  transition: all 0.3s;
+}
+.sectionTwelveBox:after {
+  content: "";
+  position: absolute;
+  border: 5px solid #00000040;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  bottom: -55px;
+  right: -20px;
+  transition: all 0.3s;
+}
+.sectionTwelveBox:hover::before {
+  border: 5px solid #948bfc;
+}
+.sectionTwelveBox:hover::after {
+  border: 5px solid black;
+}
+.sectionTwelveBox:last-child {
+  margin-right: 0;
+}
+.sectionTwelveBoxImg {
+  width: 100%;
+  height: 320px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.sectionTwelveBoxImg img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  transition: all 0.3s;
+  cursor: crosshair;
+}
+.sectionTwelveBox:hover .sectionTwelveBoxImg img {
+  transform: scale(1.2);
+}
+.sectionTwelveBox .date {
+  margin-bottom: 20px;
+}
+.sectionTwelveBoxContent {
+  padding: 0 20px 0 20px;
+}
+.sectionTwelveBox .date span {
+  color: #948bfc;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+.sectionTwelveBox:hover .date span {
+  color: #3d3d3d;
+}
+
+.sectionTwelveBoxContent article {
+  margin-bottom: 30px;
+}
+.sectionTwelveBoxContent article h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #242424;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+.sectionTwelveBox:hover .sectionTwelveBoxContent article h2 {
+  color: #948bfc;
+}
+
+.sectionTwelveBoxContent article p {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #4b4b4b;
+  transition: all 0.3s;
+}
+.sectionTwelveBox:hover .sectionTwelveBoxContent article p {
+  color: #161616;
+}
+
+.sectionTwelveBoxProfile .sectionTwelveProfileLeft {
+  float: left;
+  margin-right: 12px;
+}
+.sectionTwelveProfileLeft img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #818181;
+  border-radius: 100%;
+  transition: all 0.3s;
+}
+.sectionTwelveBox:hover .sectionTwelveProfileLeft img {
+  transform: scale(1.2);
+}
+
+.sectionTwelveProfileRight h5 {
+  margin-bottom: 3px;
+  font-size: 21px;
+  letter-spacing: 1px;
+  color: #948bfc;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.sectionTwelveBox:hover .sectionTwelveProfileRight h5 {
+  transform: rotate(-3deg);
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.sectionTwelveProfileRight b {
+  font-size: 16px;
+  display: block;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #4d4d4d;
+  transition: all 0.3s;
+}
+.sectionTwelveBox:hover .sectionTwelveProfileRight b {
+  transform: rotate(3deg);
+  letter-spacing: 3px;
+}
+/* section Twelve CSS ends here */
+/* ===================================================================================== */
