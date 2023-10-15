@@ -1,0 +1,95 @@
+/* responsive CSS under Max width 599 px */
+@media only screen and (max-width: 599px) {
+  /* default CSS starts */
+  .container {
+    width: 95%;
+  }
+  /* default CSS ends */
+
+  /* Header section Responsive are CSS Starts here */
+  .loginRegisterMainContainer {
+    padding: 10px 0 10px 0;
+  }
+  .loginRegisterMainContainer .headerBarText {
+    display: none;
+  }
+  .loginRegisterDivison {
+    width: 50%;
+  }
+  .loginRegisterDivison i {
+    font-size: 14px;
+  }
+  .loginRegister a,
+  span {
+    font-size: 14px;
+  }
+
+  .navLeftContent {
+    width: 44%;
+    height: 60px;
+    top: 36px;
+  }
+  .styelOfnavLeftContent {
+    left: 89%;
+  }
+  .navLeftContent .logo {
+    width: 120px;
+    top: -20px;
+    left: 20%;
+  }
+  .navLeftContent .logo img {
+    width: 100%;
+  }
+  .navRightContent {
+    width: 40%;
+    height: 50px;
+    position: relative;
+  }
+  .navRightContent nav {
+    display: none;
+    height: 50px;
+  }
+  .navRightContent .searchDivision {
+    display: none;
+  }
+  .navRightContent .getStartedButton {
+    display: none;
+  }
+
+  /* mobile menu starts */
+  .mobileMenu {
+    display: block;
+    width: fit-content;
+    text-align: center;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    cursor: pointer;
+    padding: 3px 5px 3px 5px;
+    transform: translate(0, -50%);
+    border: 2px solid #948bfc;
+    border-radius: 4px;
+  }
+  .mobileMenu i {
+    font-size: 22px;
+    color: #948bfc;
+    transition: all 0.3s;
+  }
+  .mobileMenu:hover i {
+    transform: scale(1.1);
+  }
+  .mobileMenu:hover .fa-bars {
+    display: none;
+  }
+
+  .mobileMenu .fa-xmark {
+    display: none;
+  }
+  .mobileMenu:hover .fa-xmark {
+    display: block;
+  }
+  /* mobile menu ends */
+  /* Header section Responsive ends here */
+}
+/* responsive CSS under Max width 599 px */
