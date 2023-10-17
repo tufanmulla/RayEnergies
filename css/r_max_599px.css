@@ -1,14 +1,12 @@
 /* responsive CSS under Max width 599 px */
 @media only screen and (max-width: 599px) {
-  /* default CSS starts */
-  .container {
-    width: 95%;
-  }
-  /* default CSS ends */
-
+  /* ============================================================================ */
   /* Header section Responsive are CSS Starts here */
   .loginRegisterMainContainer {
     padding: 10px 0 10px 0;
+  }
+  .loginRegisterMainContainer .container {
+    width: 95%;
   }
   .loginRegisterMainContainer .headerBarText {
     display: none;
@@ -22,6 +20,10 @@
   .loginRegister a,
   span {
     font-size: 14px;
+  }
+
+  .navContainer .container {
+    width: 95%;
   }
 
   .navLeftContent {
@@ -91,5 +93,85 @@
   }
   /* mobile menu ends */
   /* Header section Responsive ends here */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Two Responsive CSS starts here */
+  .sectionOne .container {
+    width: 90%;
+  }
+  .sectionOneContentContainer {
+    width: 100%;
+  }
+  .sectionOneContentContainer article b {
+    font-size: 16px;
+    width: 100%;
+  }
+  .sectionOneContentContainer article h1 {
+    font-size: 45px;
+    width: 100%;
+  }
+  .sectionOneContentContainer article p {
+    font-size: 16px;
+    width: 80%;
+  }
+  .sectionOneContentContainer article p:hover {
+    letter-spacing: 3px;
+    width: 100%;
+  }
+  .sectionOneContentContainer .readMoreButton {
+    width: 150px;
+  }
+  .sectionOneContentContainer .readMoreButton button {
+    font-size: 15px;
+    padding: 15px;
+  }
+  .sectionOneContentContainer .readMoreButton button::before {
+    left: -335%;
+    top: -769%;
+  }
+
+  .leftShape {
+    left: -90%;
+    top: -35%;
+    transform: rotate(14deg);
+  }
+  .rightShape {
+    right: -692px;
+    top: -30%;
+    transform: rotate(371deg);
+    border-right: 786px solid transparent;
+    border-bottom: 1300px solid #948bfc7e;
+  }
+  .sliderPointer {
+    display: none;
+  }
+  .sidbarContactInfo {
+    right: -230px;
+    bottom: 62%;
+  }
+
+  .sidbarContactInfo i {
+    font-size: 14px;
+  }
+  .sidbarContactInfo a {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .sidbarContactInfo span {
+    font-weight: 300;
+  }
+
+  .curveOverlay {
+    margin-bottom: -6px;
+    position: relative;
+    z-index: 5;
+  }
+  .curveOverlay img {
+    width: 100%;
+    height: 178px;
+  }
+  /* section Two Responsive CSS ends */
+  /* ============================================================================ */
 }
 /* responsive CSS under Max width 599 px */
