@@ -1,5 +1,19 @@
 /* responsive CSS under Max width 599 px */
 @media only screen and (max-width: 599px) {
+  /* default CSS */
+  .titleDiv {
+    width: 90%;
+  }
+  .titleDiv article h2 {
+    width: 100%;
+    font-size: 32px;
+  }
+  .titleDiv article p {
+    width: 100%;
+    font-size: 16px;
+  }
+  /* default CSS */
+
   /* ============================================================================ */
   /* Header section Responsive are CSS Starts here */
   .loginRegisterMainContainer {
@@ -96,7 +110,7 @@
   /* ============================================================================ */
 
   /* ============================================================================ */
-  /* section Two Responsive CSS starts here */
+  /* section One Responsive CSS starts here */
   .sectionOne .container {
     width: 90%;
   }
@@ -163,15 +177,140 @@
   }
 
   .curveOverlay {
-    margin-bottom: -6px;
-    position: relative;
-    z-index: 5;
+    width: fit-content;
+    margin-bottom: -15px;
   }
   .curveOverlay img {
+    width: 560%;
+  }
+  /* section One Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Two Responsive CSS are starts */
+  .sectionTwo {
+    top: 100%;
+  }
+  .sectionTwo .container {
+    width: 90%;
+  }
+  .sectionTwoBoxContainer {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .sectionTwoBox {
     width: 100%;
-    height: 178px;
+    margin-right: 0;
+    margin-bottom: 30px;
   }
   /* section Two Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Three Responsive CSS are starts */
+  .sectionThree {
+    padding: 1030px 0 80px 0;
+  }
+  .sectionThree .container {
+    width: 90%;
+  }
+  .sectionThree .section3LeftContent {
+    width: 100%;
+    float: unset;
+  }
+
+  .sectionThree .section3LeftContentContainer {
+    height: 550px;
+    transition: all 0.3s;
+  }
+  .sectionThree .section3LeftContentContainer:hover {
+    transform: translateX(10px);
+  }
+  .section3LeftContentContainer .one1Image {
+    height: fit-content;
+  }
+  .section3LeftContentContainer .one1Image img {
+    height: 100%;
+  }
+  .sectionThree .section3RightContent {
+    width: 100%;
+    float: unset;
+  }
+  .section3RightContentContainer h2 {
+    font-size: 18px;
+  }
+  .section3RightContentContainer .sectionThreeP1 {
+    font-size: 30px;
+  }
+  .section3RightContentContainer .sectionThreeP2 {
+    margin-bottom: 30px;
+  }
+  .section3RightContentContainer ul {
+    margin-bottom: 45px;
+  }
+  .section3RightContentContainer ul li i {
+    font-size: 22px;
+    font-weight: 300px;
+  }
+  .section3RightContentContainer ul li strong {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .knowledgeBox {
+    width: 100%;
+  }
+  .knowledgeBox b {
+    width: 90%;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .getButtonAndCallButton {
+    width: 100%;
+  }
+  .getStartedButton2 button::before {
+    left: -259%;
+    top: -743%;
+  }
+  .callButtonDivision:hover i {
+    font-size: unset;
+  }
+  .callButtonDivision:hover span {
+    font-size: unset;
+  }
+  .callButtonDivision:hover a {
+    font-size: unset;
+  }
+  .callButtonDetails a {
+    width: 100%;
+  }
+
+  /* section Three Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section four Responsive CSS are starts */
+  .sectionFour {
+    padding: 70px 0 250px 0;
+  }
+  .sectionFour .container {
+    width: 90%;
+  }
+  .sectionFour .serivceBoxContainer .serivceBox {
+    width: 100%;
+    display: block;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .logoOfServiceBox {
+    top: 42%;
+  }
+  .serivceBox article h2 {
+    font-size: 25px;
+  }
+  .serivceBox article p {
+    font-size: 16px;
+  }
+  /* section four Responsive CSS ends */
   /* ============================================================================ */
 }
 /* responsive CSS under Max width 599 px */
