@@ -409,5 +409,271 @@
   }
   /* section Six Responsive CSS ends */
   /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Seven Responsive are CSS starts */
+  .sectionSeven {
+    padding: 0 0 550px 0;
+  }
+  .videoPlayButtonContainer {
+    height: 541px;
+  }
+  .sectionSeven .leftShape {
+    display: none;
+  }
+  .sectionSeven .rightShape {
+    display: none;
+  }
+  /* section Seven Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section eight Responsive CSS are starts */
+  .sectionEight .container {
+    width: 95%;
+  }
+  .sectionEightLeftContent {
+    display: none;
+  }
+  .sectionEightRightContent {
+    width: 100%;
+    height: 650px;
+  }
+  .sectionEight .eightRightContentContainer {
+    padding: 35px 25px;
+  }
+  .eightRightContentContainer article h3 {
+    font-size: 30px;
+  }
+  .eightRightContentContainer article span {
+    font-size: 14px;
+  }
+  .nameAndEmail {
+    margin-bottom: 0;
+  }
+  .nameAndEmail input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .numberAndSubject {
+    margin-bottom: 0;
+  }
+  .numberAndSubject input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .messageField textarea {
+    height: 150px;
+  }
+  /* section eight Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Nine Responsive CSS are starts */
+  .sectionNine .container {
+    width: 90%;
+  }
+  .sectionNineContent {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .sectionNineBox {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 35px;
+  }
+  .sectionNineBox:last-child {
+    margin-bottom: 0;
+  }
+  /* section Nine Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Ten Responsive CSS are starts */
+  .sectionTen {
+    padding: 0 0 90px 0;
+  }
+  .sectionTenBox {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    float: none;
+  }
+  .sectionTenBox:last-child {
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .seeMoreProject {
+    width: 80%;
+  }
+  .seeMoreProject p {
+    line-height: 27px;
+  }
+  /* section Ten Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Eleven Responsive CSS starts */
+  .sectionEleven {
+    padding: 0 0 70px 0;
+  }
+  .sectionEleven .container {
+    width: 90%;
+    content: unset;
+    clear: unset;
+    display: block;
+  }
+  .sectionElevenContentContainer {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 25px;
+  }
+  .sectionElevenLeftContent {
+    width: 100%;
+  }
+  .sectionElevenLeftContent b {
+    font-size: 18px;
+  }
+  .sectionElevenLeftContent h2 {
+    width: 90%;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .sectionElevenLeftContent p {
+    width: 90%;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .sectionElevenLeftContent .ratingName h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .ratingName span {
+    font-size: 14px;
+  }
+  .ratings {
+    width: 90%;
+  }
+  .rating ul li i {
+    font-size: 16px;
+  }
+
+  .threeLine .line {
+    width: 20px;
+    height: 3px;
+  }
+
+  .sectionElevenRightContent {
+    display: none;
+  }
+  /* section Eleven Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Twelve Responsive CSS are starts */
+  .sectionTwelve .container {
+    width: 90%;
+  }
+  .sectionTwelveBox {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 35px;
+  }
+  .sectionTwelveBox:last-child {
+    margin-bottom: 0;
+  }
+  .sectionTwelve .date {
+    margin-bottom: 15px;
+  }
+  .sectionTwelveBox .date span {
+    font-size: 14px;
+  }
+  .sectionTwelveBoxContent article h2 {
+    margin-bottom: 3px;
+    font-size: 18px;
+  }
+  .sectionTwelveBoxContent article p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .sectionTwelveProfileLeft img {
+    width: 40px;
+    height: 40px;
+  }
+  .sectionTwelveBox .sectionTwelveProfileRight h5 {
+    font-size: 17px;
+  }
+  .sectionTwelveProfileRight b {
+    font-size: 14px;
+  }
+  /* section Twelve Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* footer Responsive CSS are starts here */
+  .footer .container {
+    width: 80%;
+  }
+  .newsLetterContent {
+    padding: 20px;
+  }
+  .newsLetterContent span {
+    display: block;
+    width: fit-content;
+    font-size: 23px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .newsLetterContent form {
+    display: block;
+  }
+  .newsLetterContent form input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .newsLetterContent form input::placeholder {
+    font-size: 14px;
+  }
+  .newsLetterContent form button {
+    padding: 10px;
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+  }
+  .footerBox:first-child {
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .footerAboutCompany article {
+    margin-bottom: 20px;
+  }
+  .footerAboutCompany article h3 {
+    font-size: 20px;
+  }
+  .footerAboutCompany article p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .footerLogo {
+    margin-bottom: 12px;
+  }
+  .footerBox:first-child .footerLogo img {
+    width: 100px;
+  }
+
+  .footerBox:nth-child(2) {
+    width: 100%;
+  }
+  .footerBox:nth-child(3) {
+    width: 100%;
+  }
+  .footerBox:last-child {
+    width: 100%;
+  }
+  /* footer Responsive CSS ends */
+  /* ============================================================================ */
 }
 /* responsive CSS under Max width 599 px */
