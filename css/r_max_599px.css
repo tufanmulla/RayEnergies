@@ -290,7 +290,7 @@
   /* ============================================================================ */
   /* section four Responsive CSS are starts */
   .sectionFour {
-    padding: 70px 0 250px 0;
+    padding: 70px 0;
   }
   .sectionFour .container {
     width: 90%;
@@ -311,6 +311,103 @@
     font-size: 16px;
   }
   /* section four Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section five Responsive CSS are starts */
+  .sectionFive {
+    display: block;
+    overflow: hidden;
+  }
+  .sectionFiveLeftContent {
+    width: 100%;
+  }
+  .sectionFiveLeftContentImage:hover img {
+    border-radius: unset;
+  }
+
+  .sectionFiveRightContent {
+    width: 100%;
+  }
+  .sectionFiveRightContentContainer article {
+    width: 100%;
+  }
+  .sectionFiveRightContentContainer {
+    padding-top: 60px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .sectionFiveRightContentContainer h2 {
+    font-size: 20px;
+  }
+  .sectionFiveRightContentContainer .sectionFiveP1 {
+    width: 100%;
+    font-size: 30px;
+  }
+  .progressContent1 {
+    width: 98%;
+  }
+  .progressContent2 {
+    width: 98%;
+  }
+  .progressContent3 {
+    width: 98%;
+  }
+  .progressContaienr .progress1 {
+    width: 98%;
+  }
+  .progressContaienr .progress2 {
+    width: 98%;
+  }
+  .progressContaienr .progress3 {
+    width: 98%;
+  }
+
+  .questionBox {
+    width: 100%;
+    left: unset;
+    transform: unset;
+  }
+  .questionBox .container {
+    width: 90%;
+  }
+  .questionBoxContaiainer {
+    width: 100%;
+  }
+  .questionBoxContent1 h2 {
+    font-size: 22px;
+  }
+  .questionBoxContent2 {
+    width: 15%;
+  }
+  .questionBoxContent3 b {
+    font-size: 18px;
+  }
+  .questionBoxContent3 span {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+  /* section five Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Six Responsive CSS starts */
+  .sectionSix {
+    padding: 80px 0 120px 0;
+  }
+  .sectionSix .container {
+    width: 90%;
+  }
+
+  .sectionSixLeftContent {
+    width: 100%;
+  }
+
+  .sectionSixRightContent {
+    display: none;
+  }
+  /* section Six Responsive CSS ends */
   /* ============================================================================ */
 }
 /* responsive CSS under Max width 599 px */

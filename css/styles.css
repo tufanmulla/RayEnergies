@@ -1476,7 +1476,7 @@ nav ul li ul li a::after {
   font-size: 35px;
   vertical-align: middle;
   font-weight: 900;
-  letter-spacing: 0.1;
+  letter-spacing: 0.1px;
   color: #ffffff;
   transition: all 0.3s;
 }
@@ -1485,7 +1485,7 @@ nav ul li ul li a::after {
 }
 .questionBoxContent2 {
   width: 30%;
-  margin-right: 20x;
+  margin-right: 20px;
   float: left;
   text-align: center;
 }
