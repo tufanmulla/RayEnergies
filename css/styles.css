@@ -2986,7 +2986,7 @@ span.profileSocialTooltip::before {
 }
 .footerBox:last-child address ul li .leftContentOfContactUs {
   float: left;
-  width: 15%;
+  width: fit-content;
   text-align: center;
   cursor: pointer;
   margin-right: 20px;
@@ -3007,6 +3007,9 @@ span.profileSocialTooltip::before {
 
 .footerBox:last-child address ul li .rightContentOfContactUs {
   float: right;
+  width: fit-content;
+}
+.footerBox:last-child address ul li:last-child .rightContentOfContactUs {
   width: 75%;
 }
 .footerBox:last-child address ul li .rightContentOfContactUs a {

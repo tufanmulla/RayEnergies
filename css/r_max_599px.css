@@ -203,6 +203,9 @@
     margin-right: 0;
     margin-bottom: 30px;
   }
+  .sectionTwoBoxButton button::before {
+    left: -287%;
+  }
   /* section Two Responsive CSS ends */
   /* ============================================================================ */
 
@@ -268,7 +271,7 @@
     width: 100%;
   }
   .getStartedButton2 button::before {
-    left: -259%;
+    left: -287%;
     top: -743%;
   }
   .callButtonDivision:hover i {
@@ -309,6 +312,9 @@
   }
   .serivceBox article p {
     font-size: 16px;
+  }
+  .sectionFourBoxButton button::before {
+    left: -288%;
   }
   /* section four Responsive CSS ends */
   /* ============================================================================ */
@@ -373,6 +379,10 @@
   }
   .questionBoxContaiainer {
     width: 100%;
+    padding: 30px;
+  }
+  .questionBox {
+    top: 6%;
   }
   .questionBoxContent1 h2 {
     font-size: 22px;
@@ -388,6 +398,16 @@
     font-weight: 400;
     letter-spacing: 0.5px;
   }
+  .progressContent1 #mastery {
+    font-size: 15px;
+  }
+  .progressContent2 #mastery {
+    font-size: 15px;
+  }
+  .progressContent3 #mastery {
+    font-size: 15px;
+  }
+
   /* section five Responsive CSS ends */
   /* ============================================================================ */
 
@@ -483,9 +503,17 @@
     margin-right: 0;
     margin-bottom: 35px;
   }
+  .sectionNineBox article h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .sectionNineBox article h3 {
+    font-size: 16px;
+  }
   .sectionNineBox:last-child {
     margin-bottom: 0;
   }
+
   /* section Nine Responsive CSS ends */
   /* ============================================================================ */
 
@@ -499,6 +527,9 @@
     margin: 0 auto;
     margin-bottom: 35px;
     float: none;
+  }
+  .tenBoxContent h3 {
+    font-size: 20px;
   }
   .sectionTenBox:last-child {
     margin: 0 auto;
@@ -642,10 +673,24 @@
     display: block;
     margin: 0 auto;
   }
+  .footerBox {
+    margin-top: 70px;
+  }
+  .footerBox h5 {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
   .footerBox:first-child {
     width: 100%;
     margin-top: 0;
     margin-right: 0;
+    padding-bottom: 20px;
+  }
+  .footerLogo {
+    margin-bottom: 12px;
+  }
+  .footerBox:first-child .footerLogo img {
+    width: 100px;
   }
   .footerAboutCompany article {
     margin-bottom: 20px;
@@ -657,21 +702,70 @@
     font-size: 14px;
     line-height: 25px;
   }
-  .footerLogo {
-    margin-bottom: 12px;
-  }
-  .footerBox:first-child .footerLogo img {
-    width: 100px;
+
+  .footerSocial ul li a i {
+    font-size: 16px;
+    padding: 8px;
   }
 
   .footerBox:nth-child(2) {
     width: 100%;
+    margin-right: 0;
+  }
+  .footerBox:nth-child(2) ul li {
+    margin-bottom: 15px;
   }
   .footerBox:nth-child(3) {
     width: 100%;
+    margin-right: 0;
+  }
+  .footerBox:nth-child(3) .posts .postsImg {
+    width: 90px;
+    height: 90px;
+    margin-right: 15px;
+  }
+  .footerBox:nth-child(3) .posts .postsContent h6 {
+    font-size: 14px;
+    width: 200px;
+    line-height: 22px;
+  }
+  .footerBox:nth-child(3) .posts .postsContent span {
+    font-size: 13px;
+  }
+  .footerBox:last-child address ul li:last-child .rightContentOfContactUs {
+    width: 83%;
   }
   .footerBox:last-child {
     width: 100%;
+  }
+  .copyRight .copyRightLeft {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .copyRightLeft span {
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+  }
+  #copyRightText {
+    display: none;
+  }
+  .copyRight .copyRightRight {
+    width: 100%;
+  }
+  .copyRight .copyRightRight ul {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .backToTopButton {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    right: 7px;
+    bottom: 7px;
+  }
+  .backToTopButton i {
+    font-size: 15px;
   }
   /* footer Responsive CSS ends */
   /* ============================================================================ */
