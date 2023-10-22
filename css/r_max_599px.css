@@ -117,10 +117,7 @@
     width: 92%;
     border: 2px solid #ffffff;
   }
-  .mobileMenuNav:hover {
-    background-color: #ffffff;
-    border: 2px solid #948bfc;
-  }
+
   .mobileMenu:hover .mobileMenuNav {
     left: 0;
     transform: scaleX(1);
@@ -141,6 +138,7 @@
   .mobileMenuNav ul li:last-child {
     margin-bottom: 0;
   }
+
   .mobileMenuNav ul li a {
     color: #ffffff;
     font-size: 16px;
@@ -148,11 +146,36 @@
     font-weight: 400;
     transition: all 0.3s;
   }
-  .mobileMenuNav:hover ul li a {
-    color: #948bfc;
-  }
   .mobileMenuNav ul li:hover a {
     text-decoration: underline;
+  }
+
+  /* moreHomeMobileNav */
+  .mobileMenuNav ul li .moreHomeMobileNav {
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: none;
+  }
+  .mobileMenuNav ul li:first-child:hover .moreHomeMobileNav {
+    display: block;
+  }
+  .mobileMenuNav ul li:hover .moreHomeMobileNav li a {
+    text-decoration: unset;
+  }
+
+  /* morePagesMobileNav */
+  .mobileMenuNav ul li .morePagesMobileNav {
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: none;
+  }
+  .mobileMenuNav ul li:nth-child(5):hover .morePagesMobileNav {
+    display: block;
+  }
+  .mobileMenuNav ul li:hover .morePagesMobileNav li a {
+    text-decoration: unset;
   }
   /* mobile menu ends */
   /* Header section Responsive ends here */
