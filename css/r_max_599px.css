@@ -59,7 +59,7 @@
   .navRightContent {
     width: 40%;
     height: 50px;
-    position: relative;
+    position: static;
   }
   .navRightContent nav {
     display: none;
@@ -78,14 +78,11 @@
     width: fit-content;
     text-align: center;
     float: right;
-    position: absolute;
-    right: 0;
-    top: 50%;
     cursor: pointer;
     padding: 3px 5px 3px 5px;
-    transform: translate(0, -50%);
     border: 2px solid #948bfc;
     border-radius: 4px;
+    margin-top: 9px;
   }
   .mobileMenu i {
     font-size: 22px;
@@ -104,6 +101,58 @@
   }
   .mobileMenu:hover .fa-xmark {
     display: block;
+  }
+
+  .mobileMenuNav {
+    position: absolute;
+    background-color: #948bfc;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: all 0.1s;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 92%;
+    border: 2px solid #ffffff;
+  }
+  .mobileMenuNav:hover {
+    background-color: #ffffff;
+    border: 2px solid #948bfc;
+  }
+  .mobileMenu:hover .mobileMenuNav {
+    left: 0;
+    transform: scaleX(1);
+  }
+  .mobileMenuNav ul {
+    list-style: none;
+    padding: 20px;
+  }
+  .mobileMenuNav ul li {
+    margin-bottom: 10px;
+    text-align: start;
+    width: fit-content;
+    transition: all 0.3s;
+  }
+  .mobileMenuNav ul li:hover {
+    transform: translateX(10px);
+  }
+  .mobileMenuNav ul li:last-child {
+    margin-bottom: 0;
+  }
+  .mobileMenuNav ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    transition: all 0.3s;
+  }
+  .mobileMenuNav:hover ul li a {
+    color: #948bfc;
+  }
+  .mobileMenuNav ul li:hover a {
+    text-decoration: underline;
   }
   /* mobile menu ends */
   /* Header section Responsive ends here */

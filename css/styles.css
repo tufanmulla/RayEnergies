@@ -1633,7 +1633,6 @@ nav ul li ul li a::after {
   opacity: 0;
   transform-origin: top;
   transform: scaleY(0);
-  transition: all 0.3s;
 }
 .frequentlyAskedQuestion ul li:hover p {
   opacity: 1;
@@ -1662,7 +1661,6 @@ nav ul li ul li a::after {
 .frequentlyAskedQuestion ul li:last-child .abTestingSteps {
   transform-origin: top;
   transform: scaleY(0);
-  transition: all 0.3s;
 }
 .frequentlyAskedQuestion ul li:last-child .abTestingSteps p {
   opacity: unset;
