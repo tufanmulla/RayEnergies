@@ -46,7 +46,10 @@
     top: 36px;
   }
   .styelOfnavLeftContent {
-    left: 89%;
+    left: 91%;
+  }
+  .styleOfNavshadow {
+    left: -43px;
   }
   .navLeftContent .logo {
     width: 120px;
@@ -57,7 +60,7 @@
     width: 100%;
   }
   .navRightContent {
-    width: 40%;
+    width: 49%;
     height: 50px;
     position: static;
   }
@@ -66,10 +69,46 @@
     height: 50px;
   }
   .navRightContent .searchDivision {
-    display: none;
+    display: block;
+    width: 20%;
+    float: left;
+    margin-top: 5px;
   }
+  .searchDivision .search {
+    width: 40px;
+    height: 40px;
+  }
+  .searchDivision:hover .search {
+    border-radius: 5px;
+    border: 1px solid #948bfc;
+  }
+  .searchDivision .search:hover i {
+    font-size: 20px;
+  }
+  .searchDivision:hover input {
+    width: 400px;
+    padding: 16px;
+    border: 1px solid #948bfc;
+    border-radius: 5px;
+  }
+  .searchField {
+    width: 0;
+    left: 0;
+    top: 18.4%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    margin: 0 auto;
+  }
+
   .navRightContent .getStartedButton {
-    display: none;
+    width: 60%;
+    float: left;
+    display: block;
+    margin-top: 5px;
+  }
+  .getStartedButton button {
+    padding: 11px;
+    width: 87%;
   }
 
   /* mobile menu starts */
@@ -82,10 +121,10 @@
     padding: 3px 5px 3px 5px;
     border: 2px solid #948bfc;
     border-radius: 4px;
-    margin-top: 9px;
+    margin-top: 7px;
   }
   .mobileMenu i {
-    font-size: 22px;
+    font-size: 25px;
     color: #948bfc;
     transition: all 0.3s;
   }
@@ -213,8 +252,8 @@
     padding: 15px;
   }
   .sectionOneContentContainer .readMoreButton button::before {
-    left: -335%;
-    top: -769%;
+    left: -330%;
+    top: -766%;
   }
 
   .leftShape {
