@@ -2688,10 +2688,14 @@ span.profileSocialTooltip::before {
   background-size: cover;
   position: relative;
 }
+
 .newsLetter {
   background-color: #0c0c0c;
   padding: 50px 100px;
-  overflow: hidden;
+  content: "";
+  clear: both;
+  display: table;
+  margin: 0 auto;
 }
 .newsLetterContent {
   width: fit-content;
@@ -2952,6 +2956,7 @@ span.profileSocialTooltip::before {
 }
 .footerBox:nth-child(3) .posts:hover .postsContent h6 {
   color: #948bfc;
+  text-decoration: underline;
 }
 .footerBox:nth-child(3) .posts .postsContent span {
   font-size: 16px;
@@ -3025,9 +3030,11 @@ span.profileSocialTooltip::before {
 /* footerbox last-child */
 
 .copyRight {
-  overflow: hidden;
   padding: 25px;
   position: relative;
+  content: "";
+  clear: both;
+  display: table;
 }
 .copyRight::before {
   content: "";
