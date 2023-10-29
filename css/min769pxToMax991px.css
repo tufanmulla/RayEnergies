@@ -1,16 +1,16 @@
 /* responsive CSS under Max width 599 px */
-@media only screen and (max-width: 599px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
   /* default CSS */
   .titleDiv {
-    width: 90%;
+    width: 80%;
   }
   .titleDiv article h2 {
     width: 100%;
-    font-size: 32px;
+    font-size: 37px;
   }
   .titleDiv article p {
     width: 100%;
-    font-size: 16px;
+    font-size: 17px;
   }
   /* default CSS */
 
@@ -33,7 +33,7 @@
   }
   .loginRegister a,
   span {
-    font-size: 14px;
+    font-size: 17px;
   }
 
   .navContainer .container {
@@ -41,15 +41,19 @@
   }
 
   .navLeftContent {
-    width: 44%;
-    height: 60px;
+    width: 35%;
+    height: 65px;
     top: 36px;
   }
   .styelOfnavLeftContent {
-    left: 89%;
+    left: 94%;
+    border-bottom: 85px solid transparent;
+  }
+  .styleOfNavshadow {
+    left: -43px;
   }
   .navLeftContent .logo {
-    width: 120px;
+    width: 160px;
     top: -20px;
     left: 20%;
   }
@@ -57,8 +61,8 @@
     width: 100%;
   }
   .navRightContent {
-    width: 40%;
-    height: 50px;
+    width: 49%;
+    height: 60px;
     position: static;
   }
   .navRightContent nav {
@@ -66,26 +70,69 @@
     height: 50px;
   }
   .navRightContent .searchDivision {
-    display: none;
+    display: block;
+    width: 27%;
+    float: left;
+    margin-top: 8px;
+    margin-right: 25px;
   }
+  .searchDivision .search {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #948bfc;
+  }
+  .searchDivision:hover .search {
+    border-radius: 5px;
+    border: 2px solid #948bfc;
+  }
+  .navRightContent .searchDivision i {
+    font-size: 20px;
+  }
+  .searchDivision .search:hover i {
+    font-size: 22px;
+  }
+  .searchDivision:hover input {
+    width: 400px;
+    padding: 16px;
+    border: 2px solid #948bfc;
+    border-radius: 5px;
+  }
+  .searchField {
+    width: 0;
+    left: 0;
+    top: 18%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    margin: 0 auto;
+  }
+
   .navRightContent .getStartedButton {
-    display: none;
+    width: 50%;
+    float: left;
+    display: block;
+    margin-top: 8px;
+  }
+  .getStartedButton button {
+    width: 40%;
+    font-size: 17px;
+    padding: 12px;
+    width: 100%;
   }
 
   /* mobile menu starts */
   .mobileMenu {
+    width: 11%;
     display: block;
-    width: fit-content;
     text-align: center;
     float: right;
     cursor: pointer;
     padding: 3px 5px 3px 5px;
     border: 2px solid #948bfc;
     border-radius: 4px;
-    margin-top: 9px;
+    margin-top: 12px;
   }
   .mobileMenu i {
-    font-size: 22px;
+    font-size: 28px;
     color: #948bfc;
     transition: all 0.3s;
   }
@@ -141,8 +188,8 @@
 
   .mobileMenuNav ul li a {
     color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-size: 18px;
+    letter-spacing: 2px;
     font-weight: 400;
     transition: all 0.3s;
   }
@@ -187,18 +234,18 @@
     width: 90%;
   }
   .sectionOneContentContainer {
-    width: 100%;
+    width: 80%;
   }
   .sectionOneContentContainer article b {
-    font-size: 16px;
+    font-size: 24px;
     width: 100%;
   }
   .sectionOneContentContainer article h1 {
-    font-size: 45px;
+    font-size: 80px;
     width: 100%;
   }
   .sectionOneContentContainer article p {
-    font-size: 16px;
+    font-size: 19px;
     width: 80%;
   }
   .sectionOneContentContainer article p:hover {
@@ -206,15 +253,15 @@
     width: 100%;
   }
   .sectionOneContentContainer .readMoreButton {
-    width: 150px;
+    width: 180px;
   }
   .sectionOneContentContainer .readMoreButton button {
-    font-size: 15px;
-    padding: 15px;
+    font-size: 18px;
+    padding: 20px;
   }
   .sectionOneContentContainer .readMoreButton button::before {
-    left: -330%;
-    top: -769%;
+    left: -235%;
+    top: -700%;
   }
 
   .leftShape {
@@ -230,22 +277,24 @@
     border-bottom: 1300px solid #948bfc7e;
   }
   .sliderPointer {
-    display: none;
+    display: block;
+    left: 0;
   }
   .sidbarContactInfo {
-    right: -230px;
+    right: -260px;
     bottom: 62%;
   }
 
   .sidbarContactInfo i {
-    font-size: 14px;
+    font-size: 17px;
   }
   .sidbarContactInfo a {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 300;
   }
   .sidbarContactInfo span {
     font-weight: 300;
+    font-size: 17px;
   }
 
   .curveOverlay {
@@ -262,22 +311,44 @@
   /* ============================================================================ */
   /* section Two Responsive CSS are starts */
   .sectionTwo {
-    top: 108%;
+    top: 125%;
   }
   .sectionTwo .container {
     width: 90%;
   }
   .sectionTwoBoxContainer {
-    width: 90%;
+    width: 98%;
     margin: 0 auto;
   }
   .sectionTwoBox {
-    width: 100%;
+    width: 47%;
+    display: inline;
+    margin-right: 39px;
+    margin-bottom: 50px;
+  }
+  .sectionTwoBox:nth-child(2) {
     margin-right: 0;
-    margin-bottom: 30px;
+  }
+  .sectionTwoBox:last-child {
+    display: block;
+    float: unset;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .sectionTwoBox:hover {
+    transform: scaleY(1.01) scaleX(1.01);
+  }
+  .secitonTwoBoxContent article h2 {
+    font-size: 22px;
+  }
+  .sectionTwoBoxButton button {
+    padding: 17px;
+    width: 170px;
+    font-size: 18px;
   }
   .sectionTwoBoxButton button::before {
-    left: -287%;
+    left: -305%;
+    top: -640%;
   }
   /* section Two Responsive CSS ends */
   /* ============================================================================ */
@@ -285,7 +356,7 @@
   /* ============================================================================ */
   /* section Three Responsive CSS are starts */
   .sectionThree {
-    padding: 1070px 0 80px 0;
+    padding: 750px 0 80px 0;
   }
   .sectionThree .container {
     width: 90%;
@@ -296,56 +367,83 @@
   }
 
   .sectionThree .section3LeftContentContainer {
-    height: 550px;
+    height: 740px;
     transition: all 0.3s;
+    margin-bottom: 20px;
   }
   .sectionThree .section3LeftContentContainer:hover {
     transform: translateX(10px);
   }
   .section3LeftContentContainer .one1Image {
     height: fit-content;
+    margin-top: 35px;
   }
   .section3LeftContentContainer .one1Image img {
     height: 100%;
+  }
+  .section3LeftContentContainer .one2Image {
+    left: 26%;
   }
   .sectionThree .section3RightContent {
     width: 100%;
     float: unset;
   }
   .section3RightContentContainer h2 {
-    font-size: 18px;
+    font-size: 23px;
   }
   .section3RightContentContainer .sectionThreeP1 {
-    font-size: 30px;
+    width: 95%;
+    font-size: 37px;
   }
   .section3RightContentContainer .sectionThreeP2 {
+    width: 92%;
     margin-bottom: 30px;
+    font-size: 16px;
   }
   .section3RightContentContainer ul {
     margin-bottom: 45px;
   }
   .section3RightContentContainer ul li i {
-    font-size: 22px;
-    font-weight: 300px;
+    font-size: 25px;
+    font-weight: 400px;
   }
   .section3RightContentContainer ul li strong {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
   }
   .knowledgeBox {
-    width: 100%;
+    width: 70%;
+  }
+  .knowledgeBox .knowledgeBoxLeftContent {
+    width: 17%;
+  }
+  .knowledgeBoxRightContent {
+    width: 82%;
   }
   .knowledgeBox b {
     width: 90%;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
   }
   .getButtonAndCallButton {
-    width: 100%;
+    width: 70%;
+  }
+  .getStartedButton2 button {
+    width: 60%;
+    font-weight: 500;
   }
   .getStartedButton2 button::before {
-    left: -425px;
-    top: -430px;
+    left: -416px;
+    top: -443px;
+  }
+  .callButtonDivision .callButton {
+    width: 25%;
+  }
+  .callButtonDetails {
+    width: 69%;
+  }
+  .callButtonDivision .callButton i {
+    font-size: 18px;
   }
   .callButtonDivision:hover i {
     font-size: unset;
@@ -356,8 +454,12 @@
   .callButtonDivision:hover a {
     font-size: unset;
   }
+  .callButtonDetails span {
+    font-weight: 400;
+  }
   .callButtonDetails a {
     width: 100%;
+    font-weight: 300;
   }
 
   /* section Three Responsive CSS ends */
@@ -366,19 +468,39 @@
   /* ============================================================================ */
   /* section four Responsive CSS are starts */
   .sectionFour {
-    padding: 70px 0;
+    padding: 70px 0 250px 0;
   }
   .sectionFour .container {
+    width: 98%;
+  }
+  .sectionFour .serivceBoxContainer {
     width: 90%;
+    margin: 0 auto;
   }
   .sectionFour .serivceBoxContainer .serivceBox {
-    width: 100%;
-    display: block;
-    margin-right: 0;
+    width: 47%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 37px;
     margin-bottom: 40px;
   }
+  .sectionFour .serivceBoxContainer .serivceBox:nth-child(2) {
+    margin-right: 0;
+  }
+  .sectionFour .serivceBoxContainer .serivceBox:last-child {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0;
+    float: unset;
+  }
   .logoOfServiceBox {
-    top: 42%;
+    top: 33%;
+  }
+  .imgBox {
+    margin-bottom: 40px;
+  }
+  .serivceBox article {
+    padding: 40px 20px;
   }
   .serivceBox article h2 {
     font-size: 25px;
@@ -395,8 +517,11 @@
   /* ============================================================================ */
   /* section five Responsive CSS are starts */
   .sectionFive {
+    padding: 0 0 120px 0;
     display: block;
-    overflow: hidden;
+    content: "";
+    clear: both;
+    display: table;
   }
   .sectionFiveLeftContent {
     width: 100%;
@@ -416,15 +541,18 @@
   }
   .sectionFiveRightContentContainer {
     padding-top: 60px;
-    width: 95%;
+    width: 75%;
     margin: 0 auto;
   }
   .sectionFiveRightContentContainer h2 {
-    font-size: 20px;
+    font-size: 23px;
   }
   .sectionFiveRightContentContainer .sectionFiveP1 {
     width: 100%;
-    font-size: 30px;
+    font-size: 35px;
+  }
+  .sectionFiveRightContentContainer .sectionFiveP2 {
+    font-size: 16px;
   }
   .progressContent1 {
     width: 98%;
@@ -451,41 +579,48 @@
     transform: unset;
   }
   .questionBox .container {
-    width: 80%;
+    width: 90%;
   }
   .questionBoxContaiainer {
     width: 100%;
-    padding: 30px;
+    padding: 50px;
   }
   .questionBox {
-    top: 6%;
+    top: -12%;
   }
   .questionBoxContent1 h2 {
-    font-size: 16px;
+    font-size: 28px;
   }
   .questionBoxContent2 {
-    width: 25%;
+    width: 26%;
+    margin-top: 22px;
   }
   .questionBoxContent2 i {
-    font-size: 18px;
-    padding: 18px;
+    font-size: 30px;
+    padding: 25px;
+  }
+  .questionBoxContent3 {
+    margin-top: 20px;
   }
   .questionBoxContent3 b {
-    font-size: 13px;
+    font-size: 20px;
   }
   .questionBoxContent3 span {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.5px;
   }
   .progressContent1 #mastery {
-    font-size: 15px;
+    font-size: 17px;
   }
   .progressContent2 #mastery {
-    font-size: 15px;
+    font-size: 17px;
   }
   .progressContent3 #mastery {
-    font-size: 15px;
+    font-size: 17px;
+  }
+  .sectionFiveRightContentContainer:hover .progressContent2 #mastery {
+    margin-left: 8px;
   }
 
   /* section five Responsive CSS ends */
@@ -497,7 +632,7 @@
     padding: 80px 0 120px 0;
   }
   .sectionSix .container {
-    width: 90%;
+    width: 88%;
   }
 
   .sectionSixLeftContent {
@@ -540,13 +675,15 @@
     height: 650px;
   }
   .sectionEight .eightRightContentContainer {
-    padding: 35px 25px;
+    padding: 50px 55px;
   }
   .eightRightContentContainer article h3 {
-    font-size: 30px;
+    font-size: 35px;
+    margin-bottom: 20px;
   }
   .eightRightContentContainer article span {
-    font-size: 14px;
+    font-size: 17px;
+    margin-bottom: 35px;
   }
   .nameAndEmail {
     margin-bottom: 0;
@@ -554,6 +691,7 @@
   .nameAndEmail input {
     width: 100%;
     margin-bottom: 20px;
+    font-size: 17px;
   }
   .numberAndSubject {
     margin-bottom: 0;
@@ -561,34 +699,56 @@
   .numberAndSubject input {
     width: 100%;
     margin-bottom: 20px;
+    font-size: 17px;
   }
   .messageField textarea {
     height: 150px;
+    font-size: 17px;
   }
+
+  .messageFieldButton {
+    width: 240px;
+  }
+  .messageFieldButton button {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .messageFieldButton button::before {
+    left: -173%;
+    top: -760%;
+  }
+
   /* section eight Responsive CSS ends */
   /* ============================================================================ */
 
   /* ============================================================================ */
   /* section Nine Responsive CSS are starts */
   .sectionNine .container {
-    width: 90%;
+    width: 85%;
   }
   .sectionNineContent {
-    width: 80%;
-    margin: 0 auto;
+    width: 98%;
   }
   .sectionNineBox {
     display: block;
-    width: 100%;
-    margin-right: 0;
+    width: 48%;
+    margin-right: 25px;
     margin-bottom: 35px;
   }
+  .sectionNineBox:nth-child(2) {
+    margin-right: 0;
+  }
+  .sectionNineBox:last-child {
+    margin: 0 auto;
+    float: unset;
+    margin-bottom: 0;
+  }
   .sectionNineBox article h2 {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 8px;
   }
   .sectionNineBox article h3 {
-    font-size: 16px;
+    font-size: 18px;
   }
   .sectionNineBox:last-child {
     margin-bottom: 0;
@@ -602,19 +762,35 @@
   .sectionTen {
     padding: 0 0 90px 0;
   }
-  .sectionTenBox {
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 35px;
-    float: none;
+  .sectionTenContent {
+    width: 90%;
   }
-  .tenBoxContent h3 {
-    font-size: 20px;
+  .sectionTenBox {
+    display: inline-block;
+    width: 48%;
+    margin-right: 27px;
+    margin-bottom: 35px;
+  }
+
+  .sectionTenBox:nth-child(2) {
+    margin-right: 0;
+  }
+  .sectionTenBox:nth-child(4) {
+    margin-right: 0;
   }
   .sectionTenBox:last-child {
+    float: unset;
+    display: block;
     margin: 0 auto;
-    margin-bottom: 0;
   }
+  .tenBoxContent {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .tenBoxContent h3 {
+    font-size: 22px;
+  }
+
   .seeMoreProject {
     width: 80%;
   }
@@ -638,45 +814,53 @@
   .sectionElevenContentContainer {
     display: block;
     overflow: hidden;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
   .sectionElevenLeftContent {
-    width: 100%;
+    width: 50%;
   }
   .sectionElevenLeftContent b {
-    font-size: 18px;
+    font-size: 23px;
   }
   .sectionElevenLeftContent h2 {
     width: 90%;
-    font-size: 25px;
-    margin-bottom: 25px;
+    font-size: 33px;
+    margin-bottom: 35px;
   }
   .sectionElevenLeftContent p {
     width: 90%;
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 18px;
+    margin-bottom: 35px;
   }
   .sectionElevenLeftContent .ratingName h4 {
-    font-size: 20px;
+    font-size: 23px;
     margin-bottom: 5px;
   }
   .ratingName span {
-    font-size: 14px;
+    font-size: 17px;
   }
   .ratings {
-    width: 90%;
+    width: 85%;
+  }
+  .sectionElevenLeftContent:hover .rating ul li {
+    margin-right: 2px;
   }
   .rating ul li i {
-    font-size: 16px;
+    font-size: 18px;
+  }
+  .sectionElevenLeftContent:hover .rating ul li i {
+    transform: scale(1.02);
   }
 
   .threeLine .line {
-    width: 20px;
-    height: 3px;
+    width: 28px;
+    height: 5px;
   }
 
   .sectionElevenRightContent {
-    display: none;
+    display: block;
+    width: 50%;
+    height: 420px;
   }
   /* section Eleven Responsive CSS ends */
   /* ============================================================================ */
@@ -684,28 +868,35 @@
   /* ============================================================================ */
   /* section Twelve Responsive CSS are starts */
   .sectionTwelve .container {
-    width: 90%;
+    width: 95%;
   }
   .sectionTwelveBox {
-    width: 100%;
+    display: inline-block;
+    width: 48%;
+    margin-right: 28px;
+    margin-bottom: 45px;
+  }
+  .sectionTwelveBox:nth-child(2) {
     margin-right: 0;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
   }
   .sectionTwelveBox:last-child {
-    margin-bottom: 0;
+    float: unset;
+    display: block;
+    margin: 0 auto;
   }
   .sectionTwelve .date {
     margin-bottom: 15px;
   }
   .sectionTwelveBox .date span {
-    font-size: 14px;
-  }
-  .sectionTwelveBoxContent article h2 {
-    margin-bottom: 3px;
     font-size: 18px;
   }
+  .sectionTwelveBoxContent article h2 {
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
   .sectionTwelveBoxContent article p {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 25px;
   }
   .sectionTwelveProfileLeft img {
@@ -713,10 +904,10 @@
     height: 40px;
   }
   .sectionTwelveBox .sectionTwelveProfileRight h5 {
-    font-size: 17px;
+    font-size: 20px;
   }
   .sectionTwelveProfileRight b {
-    font-size: 14px;
+    font-size: 16px;
   }
   /* section Twelve Responsive CSS ends */
   /* ============================================================================ */
@@ -724,37 +915,36 @@
   /* ============================================================================ */
   /* footer Responsive CSS are starts here */
   .footer .container {
-    width: 80%;
+    width: 90%;
+  }
+  .newsLetter {
+    padding: 20px;
   }
   .newsLetterContent {
     padding: 20px;
     float: unset;
     margin: 0 auto;
   }
+
   .newsLetterContent span {
-    display: block;
-    width: fit-content;
-    font-size: 23px;
-    margin: 0 auto;
+    display: inline;
+    margin-right: 15px;
+    font-size: 30px;
     margin-bottom: 15px;
   }
-  .newsLetterContent form {
-    display: block;
-  }
+
   .newsLetterContent form input {
-    padding: 10px;
-    width: 100%;
-    margin-bottom: 10px;
-    margin-right: 0;
+    padding: 15px;
+    width: 33%;
+    margin-right: 15px;
   }
   .newsLetterContent form input::placeholder {
-    font-size: 14px;
+    font-size: 16px;
   }
   .newsLetterContent form button {
-    padding: 10px;
+    padding: 16px;
     width: fit-content;
-    display: block;
-    margin: 0 auto;
+    display: inline;
   }
   .footerBox {
     margin-top: 70px;
@@ -764,43 +954,46 @@
     margin-bottom: 30px;
   }
   .footerBox:first-child {
-    width: 100%;
+    float: left;
+    width: 55%;
     margin-top: 0;
-    margin-right: 0;
+    margin-right: 33px;
     padding-bottom: 20px;
   }
   .footerLogo {
     margin-bottom: 12px;
   }
   .footerBox:first-child .footerLogo img {
-    width: 100px;
+    width: 150px;
   }
   .footerAboutCompany article {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
   .footerAboutCompany article h3 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .footerAboutCompany article p {
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 15px;
+    line-height: 26px;
   }
 
   .footerSocial ul li a i {
-    font-size: 16px;
-    padding: 8px;
+    font-size: 20px;
+    padding: 13px;
   }
 
   .footerBox:nth-child(2) {
-    width: 100%;
+    float: right;
+    width: 40%;
     margin-right: 0;
   }
   .footerBox:nth-child(2) ul li {
     margin-bottom: 15px;
   }
   .footerBox:nth-child(3) {
-    width: 100%;
-    margin-right: 0;
+    float: left;
+    width: 48%;
+    margin-right: 27px;
   }
   .footerBox:nth-child(3) .posts .postsImg {
     width: 90px;
@@ -808,48 +1001,51 @@
     margin-right: 15px;
   }
   .footerBox:nth-child(3) .posts .postsContent h6 {
-    font-size: 14px;
+    font-size: 16px;
     width: 200px;
     line-height: 22px;
   }
   .footerBox:nth-child(3) .posts .postsContent span {
-    font-size: 13px;
+    font-size: 15px;
   }
   .footerBox:last-child address ul li:last-child .rightContentOfContactUs {
     float: left;
-    width: 50%;
+    width: 80%;
   }
   .footerBox:last-child {
+    width: 48%;
+    float: right;
+  }
+  .copyRight {
+    padding: 25px 0;
+  }
+  .copyRight::before {
     width: 100%;
   }
   .copyRight .copyRightLeft {
-    margin-bottom: 15px;
-    width: 100%;
+    float: left;
+    width: 50%;
   }
-  .copyRightLeft span {
-    margin: 0 auto;
-    display: block;
-    width: fit-content;
-  }
+
   #copyRightText {
     display: none;
   }
   .copyRight .copyRightRight {
-    width: 100%;
+    width: 50%;
+    float: right;
   }
   .copyRight .copyRightRight ul {
-    width: fit-content;
-    margin: 0 auto;
+    text-align: end;
   }
   .backToTopButton {
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    right: 7px;
-    bottom: 7px;
+    width: 45px;
+    height: 45px;
+    padding: 13px;
+    right: 10px;
+    bottom: 85px;
   }
   .backToTopButton i {
-    font-size: 15px;
+    font-size: 17px;
   }
   /* footer Responsive CSS ends */
   /* ============================================================================ */

@@ -289,7 +289,8 @@
 
   .curveOverlay {
     width: fit-content;
-    margin-bottom: -15px;
+    margin-left: -25px;
+    margin-bottom: -25px;
   }
   .curveOverlay img {
     width: 560%;
@@ -407,8 +408,8 @@
     font-weight: 500;
   }
   .getStartedButton2 button::before {
-    left: -344%;
-    top: -772%;
+    left: -443px;
+    top: -416px;
   }
   .callButtonDivision .callButton {
     width: 30%;
@@ -539,7 +540,7 @@
     padding: 40px;
   }
   .questionBox {
-    top: -15%;
+    top: -10%;
   }
   .questionBoxContent1 h2 {
     font-size: 25px;
@@ -669,8 +670,8 @@
     padding: 12px;
   }
   .messageFieldButton button::before {
-    left: -236%;
-    top: -1019%;
+    left: -424px;
+    top: -461px;
   }
 
   /* section eight Responsive CSS ends */
@@ -840,6 +841,8 @@
   }
   .newsLetterContent {
     padding: 20px;
+    float: unset;
+    margin: 0 auto;
   }
 
   .newsLetterContent span {
