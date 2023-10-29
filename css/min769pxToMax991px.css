@@ -359,7 +359,7 @@
     padding: 750px 0 80px 0;
   }
   .sectionThree .container {
-    width: 90%;
+    width: 70%;
   }
   .sectionThree .section3LeftContent {
     width: 100%;
@@ -367,7 +367,7 @@
   }
 
   .sectionThree .section3LeftContentContainer {
-    height: 740px;
+    height: 607px;
     transition: all 0.3s;
     margin-bottom: 20px;
   }
@@ -392,7 +392,7 @@
     font-size: 23px;
   }
   .section3RightContentContainer .sectionThreeP1 {
-    width: 95%;
+    width: 100%;
     font-size: 37px;
   }
   .section3RightContentContainer .sectionThreeP2 {
@@ -412,7 +412,7 @@
     font-weight: 400;
   }
   .knowledgeBox {
-    width: 70%;
+    width: 80%;
   }
   .knowledgeBox .knowledgeBoxLeftContent {
     width: 17%;
@@ -426,7 +426,7 @@
     font-weight: 500;
   }
   .getButtonAndCallButton {
-    width: 70%;
+    width: 85%;
   }
   .getStartedButton2 button {
     width: 60%;
