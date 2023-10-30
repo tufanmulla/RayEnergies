@@ -111,9 +111,6 @@ span {
 /* login register division ends*/
 
 /* navContainer starts */
-.navContainer {
-  overflow: hidden;
-}
 .navLeftContent {
   width: 20%;
   float: left;
@@ -184,6 +181,7 @@ nav ul li {
   vertical-align: middle;
   line-height: 73px;
   cursor: pointer;
+  position: relative;
 }
 
 nav ul li:last-child {
@@ -204,6 +202,7 @@ nav ul li a {
   height: 100%;
   position: relative;
   transition: all 0.3s;
+  overflow: hidden;
 }
 nav ul li a::before {
   content: "";
@@ -230,27 +229,27 @@ nav ul li:hover a::before {
   top: -45%;
 }
 nav ul li:hover a::after {
-  bottom: -125%;
+  bottom: -127%;
 }
 
 nav ul li ul {
   position: absolute;
-  width: fit-content;
+  width: 200px;
   padding: 15px;
   height: fit-content;
   background-color: #948bfc;
   border-top: 1px solid #000000;
-  top: 21%;
+  top: 102%;
   transform-origin: bottom;
   transform: translateY(10px) scale(0);
   transition: all 0.1s;
   z-index: 50;
 }
 ul.moreHome {
-  left: 25.5%;
+  left: -155%;
 }
 ul.morePages {
-  left: 52.5%;
+  left: -129.5%;
 }
 nav ul li:hover ul {
   transform: translateY(0) scale(1);

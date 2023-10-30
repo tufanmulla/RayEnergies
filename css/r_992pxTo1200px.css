@@ -1,0 +1,984 @@
+/* responsive CSS under Max width 599 px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* default CSS */
+  .titleDiv {
+    width: 80%;
+  }
+  .titleDiv article h2 {
+    width: 100%;
+    font-size: 40px;
+  }
+  .titleDiv article p {
+    width: 70%;
+    font-size: 17px;
+  }
+  /* default CSS */
+
+  /* ============================================================================ */
+  /* Header section Responsive are CSS Starts here */
+  .loginRegisterMainContainer {
+    padding: 20px 0 20px 0;
+  }
+  .loginRegisterMainContainer .container {
+    width: 95%;
+  }
+  .loginRegisterMainContainer .headerBarText {
+    width: 70%;
+    display: block;
+    text-align: end;
+  }
+  .headerBarText article span {
+    font-size: 17px;
+  }
+  .loginRegisterDivison {
+    width: 30%;
+  }
+  .loginRegisterDivison i {
+    font-size: 17px;
+  }
+  .loginRegister a,
+  span {
+    font-size: 17px;
+  }
+
+  .navContainer .container {
+    width: 95%;
+  }
+
+  .navLeftContent {
+    width: 30%;
+    height: 75px;
+    top: 56px;
+  }
+  .styelOfnavLeftContent {
+    left: 96%;
+    border-bottom: 84px solid transparent;
+  }
+  .styleOfNavshadow {
+    left: -43px;
+  }
+  .navLeftContent .logo {
+    width: 160px;
+    top: -28px;
+    left: 20%;
+  }
+  .navLeftContent .logo img {
+    width: 100%;
+  }
+  .navRightContent {
+    width: 64%;
+    height: 66px;
+    position: static;
+  }
+  .navRightContent nav {
+    display: block;
+    height: 100%;
+    margin-right: 10px;
+  }
+  .navRightContent nav ul li {
+    margin-right: 9px;
+  }
+  .navRightContent nav ul li:last-child {
+    margin-right: 0;
+  }
+  .navRightContent nav ul li a {
+    font-size: 14px;
+  }
+  nav ul li a::before {
+    top: -80%;
+  }
+  nav ul li:hover a::before {
+    top: -49%;
+  }
+  nav ul li a::after {
+    bottom: -180%;
+    transform: translate(-50%, -50%) rotate(315deg);
+    left: 48%;
+  }
+
+  nav ul li:hover a::after {
+    bottom: -140%;
+  }
+  .navRightContent .searchDivision {
+    display: block;
+    width: 8%;
+    float: left;
+    margin-top: 8px;
+  }
+  .searchDivision .search {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #948bfc;
+  }
+  .searchDivision:hover .search {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid #948bfc;
+    border-left: none;
+  }
+  .navRightContent .searchDivision i {
+    font-size: 20px;
+  }
+  .searchDivision .search:hover i {
+    font-size: 22px;
+  }
+  .searchDivision:hover input {
+    width: 400px;
+    padding: 16px;
+    border: 1px solid #948bfc;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+  }
+  .searchField {
+    width: 0;
+    left: 0;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    margin: 0 auto;
+  }
+
+  .navRightContent .getStartedButton {
+    width: 22%;
+    float: right;
+    display: block;
+    margin-top: 8px;
+  }
+  .getStartedButton button {
+    width: 40%;
+    font-size: 17px;
+    padding: 15px;
+    width: 100%;
+  }
+
+  /* mobile menu starts */
+  .mobileMenu {
+    display: none;
+  }
+  /* Header section Responsive ends here */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section One Responsive CSS starts here */
+  .sectionOne .container {
+    width: 90%;
+  }
+  .sectionOneContentContainer {
+    width: 80%;
+  }
+  .sectionOneContentContainer article b {
+    font-size: 24px;
+    width: 100%;
+  }
+  .sectionOneContentContainer article h1 {
+    font-size: 80px;
+    width: 100%;
+  }
+  .sectionOneContentContainer article p {
+    font-size: 19px;
+    width: 80%;
+  }
+  .sectionOneContentContainer article p:hover {
+    letter-spacing: 3px;
+    width: 100%;
+  }
+  .sectionOneContentContainer .readMoreButton {
+    width: 180px;
+  }
+  .sectionOneContentContainer .readMoreButton button {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .sectionOneContentContainer .readMoreButton button::before {
+    left: -235%;
+    top: -700%;
+  }
+
+  .leftShape {
+    left: -90%;
+    top: -35%;
+    transform: rotate(14deg);
+  }
+  .rightShape {
+    right: -692px;
+    top: -30%;
+    transform: rotate(371deg);
+    border-right: 786px solid transparent;
+    border-bottom: 1300px solid #948bfc7e;
+  }
+  .sliderPointer {
+    display: block;
+    left: 0;
+  }
+  .sidbarContactInfo {
+    right: -260px;
+    bottom: 62%;
+  }
+
+  .sidbarContactInfo i {
+    font-size: 17px;
+  }
+  .sidbarContactInfo a {
+    font-size: 17px;
+    font-weight: 300;
+  }
+  .sidbarContactInfo span {
+    font-weight: 300;
+    font-size: 17px;
+  }
+
+  .curveOverlay {
+    width: fit-content;
+    margin-left: -25px;
+    margin-bottom: -25px;
+  }
+  .curveOverlay img {
+    width: 560%;
+  }
+  /* section One Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Two Responsive CSS are starts */
+  .sectionTwo {
+    top: 125%;
+  }
+  .sectionTwo .container {
+    width: 90%;
+  }
+  .sectionTwoBoxContainer {
+    width: 98%;
+    margin: 0 auto;
+  }
+  .sectionTwoBox {
+    width: 47%;
+    display: inline;
+    margin-right: 39px;
+    margin-bottom: 50px;
+  }
+  .sectionTwoBox:nth-child(2) {
+    margin-right: 0;
+  }
+  .sectionTwoBox:last-child {
+    display: block;
+    float: unset;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  .sectionTwoBox:hover {
+    transform: scaleY(1.01) scaleX(1.01);
+  }
+  .secitonTwoBoxContent article h2 {
+    font-size: 22px;
+  }
+  .sectionTwoBoxButton button {
+    padding: 17px;
+    width: 170px;
+    font-size: 18px;
+  }
+  .sectionTwoBoxButton button::before {
+    left: -305%;
+    top: -640%;
+  }
+  /* section Two Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Three Responsive CSS are starts */
+  .sectionThree {
+    padding: 750px 0 80px 0;
+  }
+  .sectionThree .container {
+    width: 70%;
+  }
+  .sectionThree .section3LeftContent {
+    width: 100%;
+    float: unset;
+  }
+
+  .sectionThree .section3LeftContentContainer {
+    height: 607px;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+  }
+  .sectionThree .section3LeftContentContainer:hover {
+    transform: translateX(10px);
+  }
+  .section3LeftContentContainer .one1Image {
+    height: fit-content;
+    margin-top: 35px;
+  }
+  .section3LeftContentContainer .one1Image img {
+    height: 100%;
+  }
+  .section3LeftContentContainer .one2Image {
+    left: 26%;
+  }
+  .sectionThree .section3RightContent {
+    width: 100%;
+    float: unset;
+  }
+  .section3RightContentContainer h2 {
+    font-size: 23px;
+  }
+  .section3RightContentContainer .sectionThreeP1 {
+    width: 100%;
+    font-size: 37px;
+  }
+  .section3RightContentContainer .sectionThreeP2 {
+    width: 92%;
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  .section3RightContentContainer ul {
+    margin-bottom: 45px;
+  }
+  .section3RightContentContainer ul li i {
+    font-size: 25px;
+    font-weight: 400px;
+  }
+  .section3RightContentContainer ul li strong {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .knowledgeBox {
+    width: 80%;
+  }
+  .knowledgeBox .knowledgeBoxLeftContent {
+    width: 17%;
+  }
+  .knowledgeBoxRightContent {
+    width: 82%;
+  }
+  .knowledgeBox b {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .getButtonAndCallButton {
+    width: 85%;
+  }
+  .getStartedButton2 button {
+    width: 60%;
+    font-weight: 500;
+  }
+  .getStartedButton2 button::before {
+    left: -416px;
+    top: -443px;
+  }
+  .callButtonDivision .callButton {
+    width: 25%;
+  }
+  .callButtonDetails {
+    width: 69%;
+  }
+  .callButtonDivision .callButton i {
+    font-size: 18px;
+  }
+  .callButtonDivision:hover i {
+    font-size: unset;
+  }
+  .callButtonDivision:hover span {
+    font-size: unset;
+  }
+  .callButtonDivision:hover a {
+    font-size: unset;
+  }
+  .callButtonDetails span {
+    font-weight: 400;
+  }
+  .callButtonDetails a {
+    width: 100%;
+    font-weight: 300;
+  }
+
+  /* section Three Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section four Responsive CSS are starts */
+  .sectionFour {
+    padding: 70px 0 250px 0;
+  }
+  .sectionFour .container {
+    width: 98%;
+  }
+  .sectionFour .serivceBoxContainer {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .sectionFour .serivceBoxContainer .serivceBox {
+    width: 47%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 37px;
+    margin-bottom: 40px;
+  }
+  .sectionFour .serivceBoxContainer .serivceBox:nth-child(2) {
+    margin-right: 0;
+  }
+  .sectionFour .serivceBoxContainer .serivceBox:last-child {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0;
+    float: unset;
+  }
+  .logoOfServiceBox {
+    top: 33%;
+  }
+  .imgBox {
+    margin-bottom: 40px;
+  }
+  .serivceBox article {
+    padding: 40px 20px;
+  }
+  .serivceBox article h2 {
+    font-size: 25px;
+  }
+  .serivceBox article p {
+    font-size: 16px;
+  }
+  .sectionFourBoxButton button::before {
+    left: -288%;
+  }
+  /* section four Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section five Responsive CSS are starts */
+  .sectionFive {
+    padding: 0 0 120px 0;
+    display: block;
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .sectionFiveLeftContent {
+    width: 100%;
+  }
+  .sectionFiveLeftContentImage img {
+    border-radius: unset;
+  }
+  .sectionFiveLeftContentImage:hover img {
+    border-radius: unset;
+  }
+
+  .sectionFiveRightContent {
+    width: 100%;
+  }
+  .sectionFiveRightContentContainer article {
+    width: 100%;
+  }
+  .sectionFiveRightContentContainer {
+    padding-top: 60px;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .sectionFiveRightContentContainer h2 {
+    font-size: 23px;
+  }
+  .sectionFiveRightContentContainer .sectionFiveP1 {
+    width: 100%;
+    font-size: 35px;
+  }
+  .sectionFiveRightContentContainer .sectionFiveP2 {
+    font-size: 16px;
+  }
+  .progressContent1 {
+    width: 98%;
+  }
+  .progressContent2 {
+    width: 98%;
+  }
+  .progressContent3 {
+    width: 98%;
+  }
+  .progressContaienr .progress1 {
+    width: 98%;
+  }
+  .progressContaienr .progress2 {
+    width: 98%;
+  }
+  .progressContaienr .progress3 {
+    width: 98%;
+  }
+
+  .questionBox {
+    width: 100%;
+    left: unset;
+    transform: unset;
+  }
+  .questionBox .container {
+    width: 90%;
+  }
+  .questionBoxContaiainer {
+    width: 100%;
+    padding: 50px;
+  }
+  .questionBox {
+    top: -12%;
+  }
+  .questionBoxContent1 h2 {
+    font-size: 28px;
+  }
+  .questionBoxContent2 {
+    width: 26%;
+    margin-top: 22px;
+  }
+  .questionBoxContent2 i {
+    font-size: 30px;
+    padding: 25px;
+  }
+  .questionBoxContent3 {
+    margin-top: 20px;
+  }
+  .questionBoxContent3 b {
+    font-size: 20px;
+  }
+  .questionBoxContent3 span {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+  .progressContent1 #mastery {
+    font-size: 17px;
+  }
+  .progressContent2 #mastery {
+    font-size: 17px;
+  }
+  .progressContent3 #mastery {
+    font-size: 17px;
+  }
+  .sectionFiveRightContentContainer:hover .progressContent2 #mastery {
+    margin-left: 25px;
+  }
+
+  /* section five Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Six Responsive CSS starts */
+  .sectionSix {
+    padding: 80px 0 120px 0;
+  }
+  .sectionSix .container {
+    width: 88%;
+  }
+
+  .sectionSixLeftContent {
+    width: 100%;
+  }
+
+  .sectionSixRightContent {
+    display: none;
+  }
+  /* section Six Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Seven Responsive are CSS starts */
+  .sectionSeven {
+    padding: 0 0 550px 0;
+  }
+  .videoPlayButtonContainer {
+    height: 541px;
+  }
+  .sectionSeven .leftShape {
+    display: none;
+  }
+  .sectionSeven .rightShape {
+    display: none;
+  }
+  /* section Seven Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section eight Responsive CSS are starts */
+  .sectionEight .container {
+    width: 95%;
+  }
+  .sectionEightLeftContent {
+    display: none;
+  }
+  .sectionEightRightContent {
+    width: 100%;
+    height: 650px;
+  }
+  .sectionEight .eightRightContentContainer {
+    padding: 50px 55px;
+  }
+  .eightRightContentContainer article h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .eightRightContentContainer article span {
+    font-size: 17px;
+    margin-bottom: 35px;
+  }
+  .nameAndEmail {
+    margin-bottom: 0;
+  }
+  .nameAndEmail input {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+  .numberAndSubject {
+    margin-bottom: 0;
+  }
+  .numberAndSubject input {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+  .messageField textarea {
+    height: 150px;
+    font-size: 17px;
+  }
+
+  .messageFieldButton {
+    width: 240px;
+  }
+  .messageFieldButton button {
+    font-size: 18px;
+    padding: 20px;
+  }
+  .messageFieldButton button::before {
+    left: -173%;
+    top: -760%;
+  }
+
+  /* section eight Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Nine Responsive CSS are starts */
+  .sectionNine .container {
+    width: 85%;
+  }
+  .sectionNineContent {
+    width: 98%;
+  }
+  .sectionNineBox {
+    display: block;
+    width: 48%;
+    margin-right: 25px;
+    margin-bottom: 35px;
+  }
+  .sectionNineBox:nth-child(2) {
+    margin-right: 0;
+  }
+  .sectionNineBox:last-child {
+    margin: 0 auto;
+    float: unset;
+    margin-bottom: 0;
+  }
+  .sectionNineBox article h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .sectionNineBox article h3 {
+    font-size: 18px;
+  }
+  .sectionNineBox:last-child {
+    margin-bottom: 0;
+  }
+
+  /* section Nine Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Ten Responsive CSS are starts */
+  .sectionTen {
+    padding: 0 0 90px 0;
+  }
+  .sectionTenContent {
+    width: 90%;
+  }
+  .sectionTenBox {
+    display: inline-block;
+    width: 48%;
+    margin-right: 27px;
+    margin-bottom: 35px;
+  }
+
+  .sectionTenBox:nth-child(2) {
+    margin-right: 0;
+  }
+  .sectionTenBox:nth-child(4) {
+    margin-right: 0;
+  }
+  .sectionTenBox:last-child {
+    float: unset;
+    display: block;
+    margin: 0 auto;
+  }
+  .tenBoxContent {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .tenBoxContent h3 {
+    font-size: 22px;
+  }
+
+  .seeMoreProject {
+    width: 80%;
+  }
+  .seeMoreProject p {
+    line-height: 27px;
+  }
+  /* section Ten Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Eleven Responsive CSS starts */
+  .sectionEleven {
+    padding: 0 0 70px 0;
+  }
+  .sectionEleven .container {
+    width: 90%;
+    content: unset;
+    clear: unset;
+    display: block;
+  }
+  .sectionElevenContentContainer {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .sectionElevenLeftContent {
+    width: 50%;
+  }
+  .sectionElevenLeftContent b {
+    font-size: 23px;
+  }
+  .sectionElevenLeftContent h2 {
+    width: 90%;
+    font-size: 33px;
+    margin-bottom: 35px;
+  }
+  .sectionElevenLeftContent p {
+    width: 90%;
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+  .sectionElevenLeftContent .ratingName h4 {
+    font-size: 23px;
+    margin-bottom: 5px;
+  }
+  .ratingName span {
+    font-size: 17px;
+  }
+  .ratings {
+    width: 85%;
+  }
+  .sectionElevenLeftContent:hover .rating ul li {
+    margin-right: 2px;
+  }
+  .rating ul li i {
+    font-size: 18px;
+  }
+  .sectionElevenLeftContent:hover .rating ul li i {
+    transform: scale(1.02);
+  }
+
+  .threeLine .line {
+    width: 28px;
+    height: 5px;
+  }
+
+  .sectionElevenRightContent {
+    display: block;
+    width: 50%;
+    height: 420px;
+  }
+  /* section Eleven Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* section Twelve Responsive CSS are starts */
+  .sectionTwelve .container {
+    width: 95%;
+  }
+  .sectionTwelveBox {
+    display: inline-block;
+    width: 48%;
+    margin-right: 28px;
+    margin-bottom: 45px;
+  }
+  .sectionTwelveBox:nth-child(2) {
+    margin-right: 0;
+    margin-bottom: 45px;
+  }
+  .sectionTwelveBox:last-child {
+    float: unset;
+    display: block;
+    margin: 0 auto;
+  }
+  .sectionTwelve .date {
+    margin-bottom: 15px;
+  }
+  .sectionTwelveBox .date span {
+    font-size: 18px;
+  }
+  .sectionTwelveBoxContent article h2 {
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+  .sectionTwelveBoxContent article p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .sectionTwelveProfileLeft img {
+    width: 40px;
+    height: 40px;
+  }
+  .sectionTwelveBox .sectionTwelveProfileRight h5 {
+    font-size: 20px;
+  }
+  .sectionTwelveProfileRight b {
+    font-size: 16px;
+  }
+  /* section Twelve Responsive CSS ends */
+  /* ============================================================================ */
+
+  /* ============================================================================ */
+  /* footer Responsive CSS are starts here */
+  .footer .container {
+    width: 90%;
+  }
+  .newsLetter {
+    padding: 20px;
+  }
+  .newsLetterContent {
+    padding: 20px;
+    float: unset;
+    margin: 0 auto;
+  }
+
+  .newsLetterContent span {
+    display: inline;
+    margin-right: 15px;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .newsLetterContent form input {
+    padding: 15px;
+    width: 33%;
+    margin-right: 15px;
+  }
+  .newsLetterContent form input::placeholder {
+    font-size: 16px;
+  }
+  .newsLetterContent form button {
+    padding: 16px;
+    width: fit-content;
+    display: inline;
+  }
+  .footerBox {
+    margin-top: 70px;
+  }
+  .footerBox h5 {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .footerBox:first-child {
+    float: left;
+    width: 55%;
+    margin-top: 0;
+    margin-right: 33px;
+    padding-bottom: 20px;
+  }
+  .footerLogo {
+    margin-bottom: 12px;
+  }
+  .footerBox:first-child .footerLogo img {
+    width: 150px;
+  }
+  .footerAboutCompany article {
+    margin-bottom: 25px;
+  }
+  .footerAboutCompany article h3 {
+    font-size: 30px;
+  }
+  .footerAboutCompany article p {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .footerSocial ul li a i {
+    font-size: 20px;
+    padding: 13px;
+  }
+
+  .footerBox:nth-child(2) {
+    float: right;
+    width: 40%;
+    margin-right: 0;
+  }
+  .footerBox:nth-child(2) ul li {
+    margin-bottom: 15px;
+  }
+  .footerBox:nth-child(3) {
+    float: left;
+    width: 48%;
+    margin-right: 27px;
+  }
+  .footerBox:nth-child(3) .posts .postsImg {
+    width: 90px;
+    height: 90px;
+    margin-right: 15px;
+  }
+  .footerBox:nth-child(3) .posts .postsContent h6 {
+    font-size: 16px;
+    width: 200px;
+    line-height: 22px;
+  }
+  .footerBox:nth-child(3) .posts .postsContent span {
+    font-size: 15px;
+  }
+  .footerBox:last-child address ul li:last-child .rightContentOfContactUs {
+    float: left;
+    width: 80%;
+  }
+  .footerBox:last-child {
+    width: 48%;
+    float: right;
+  }
+  .copyRight {
+    padding: 25px 0;
+  }
+  .copyRight::before {
+    width: 100%;
+  }
+  .copyRight .copyRightLeft {
+    float: left;
+    width: 50%;
+  }
+
+  #copyRightText {
+    display: none;
+  }
+  .copyRight .copyRightRight {
+    width: 50%;
+    float: right;
+  }
+  .copyRight .copyRightRight ul {
+    text-align: end;
+  }
+  .backToTopButton {
+    width: 45px;
+    height: 45px;
+    padding: 13px;
+    right: 10px;
+    bottom: 85px;
+  }
+  .backToTopButton i {
+    font-size: 17px;
+  }
+  /* footer Responsive CSS ends */
+  /* ============================================================================ */
+}
+/* responsive CSS under Max width 599 px */
