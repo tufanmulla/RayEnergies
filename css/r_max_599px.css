@@ -555,12 +555,18 @@
     width: 100%;
     margin-bottom: 20px;
   }
+  .nameAndEmail input:first-child {
+    margin-right: 0;
+  }
   .numberAndSubject {
     margin-bottom: 0;
   }
   .numberAndSubject input {
     width: 100%;
     margin-bottom: 20px;
+  }
+  .numberAndSubject input:first-child {
+    margin-right: 0;
   }
   .messageField textarea {
     height: 150px;

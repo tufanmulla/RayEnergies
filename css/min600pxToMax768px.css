@@ -647,6 +647,10 @@
   .nameAndEmail {
     margin-bottom: 0;
   }
+
+  .nameAndEmail input:first-child {
+    margin-right: 0;
+  }
   .nameAndEmail input {
     width: 100%;
     margin-bottom: 20px;
@@ -657,6 +661,9 @@
   .numberAndSubject input {
     width: 100%;
     margin-bottom: 20px;
+  }
+  .numberAndSubject input:first-child {
+    margin-right: 0;
   }
   .messageField textarea {
     height: 150px;

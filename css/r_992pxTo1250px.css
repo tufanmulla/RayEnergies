@@ -439,7 +439,8 @@
     font-size: 16px;
   }
   .sectionFourBoxButton button::before {
-    left: -288%;
+    left: -251%;
+    top: -665%;
   }
   .sectionFourBoxButton button {
     padding: 18px;
@@ -451,60 +452,60 @@
   /* ============================================================================ */
   /* section five Responsive CSS are starts */
   .sectionFive {
-    padding: 0 0 120px 0;
+    padding: 200px 0 120px 0;
     display: block;
     content: "";
     clear: both;
     display: table;
   }
   .sectionFiveLeftContent {
-    width: 100%;
+    width: 49%;
+    float: left;
   }
   .sectionFiveLeftContentImage img {
-    border-radius: unset;
+    height: 380px;
   }
-  .sectionFiveLeftContentImage:hover img {
-    border-radius: unset;
-  }
-
   .sectionFiveRightContent {
-    width: 100%;
+    width: 49%;
+    float: right;
   }
   .sectionFiveRightContentContainer article {
     width: 100%;
   }
-  .sectionFiveRightContentContainer {
-    padding-top: 60px;
-    width: 75%;
-    margin: 0 auto;
-  }
   .sectionFiveRightContentContainer h2 {
     font-size: 23px;
   }
+  .sectionFiveRightContentContainer:hover h2 {
+    margin-bottom: 20px;
+  }
   .sectionFiveRightContentContainer .sectionFiveP1 {
-    width: 100%;
+    width: 90%;
     font-size: 35px;
   }
   .sectionFiveRightContentContainer .sectionFiveP2 {
     font-size: 16px;
+    font-weight: 400;
   }
   .progressContent1 {
-    width: 98%;
+    width: 90%;
   }
   .progressContent2 {
-    width: 98%;
+    width: 90%;
   }
   .progressContent3 {
-    width: 98%;
+    width: 90%;
   }
   .progressContaienr .progress1 {
-    width: 98%;
+    width: 90%;
   }
   .progressContaienr .progress2 {
-    width: 98%;
+    width: 90%;
   }
   .progressContaienr .progress3 {
-    width: 98%;
+    width: 90%;
+  }
+  .sectionFiveRightContentContainer:hover .progressContent2 #mastery {
+    margin-right: 40%;
   }
 
   .questionBox {
@@ -520,27 +521,32 @@
     padding: 50px;
   }
   .questionBox {
-    top: -12%;
+    top: -17%;
+  }
+  .questionBoxContent1 {
+    float: left;
+    width: 35%;
+    margin-right: 10px;
   }
   .questionBoxContent1 h2 {
-    font-size: 28px;
+    font-size: 35px;
   }
   .questionBoxContent2 {
-    width: 26%;
-    margin-top: 22px;
+    width: 20%;
+    margin-right: 0;
   }
   .questionBoxContent2 i {
-    font-size: 30px;
-    padding: 25px;
+    font-size: 40px;
+    padding: 30px;
   }
   .questionBoxContent3 {
-    margin-top: 20px;
+    width: 35%;
   }
   .questionBoxContent3 b {
-    font-size: 20px;
+    font-size: 30px;
   }
   .questionBoxContent3 span {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     letter-spacing: 0.5px;
   }
@@ -566,15 +572,19 @@
     padding: 80px 0 120px 0;
   }
   .sectionSix .container {
-    width: 88%;
+    width: 95%;
   }
 
   .sectionSixLeftContent {
-    width: 100%;
+    width: 48%;
   }
 
   .sectionSixRightContent {
-    display: none;
+    display: block;
+    width: 48%;
+  }
+  .frequentlyAskedQuestionPicture {
+    height: 530px;
   }
   /* section Six Responsive CSS ends */
   /* ============================================================================ */
@@ -609,6 +619,7 @@
     height: 650px;
   }
   .sectionEight .eightRightContentContainer {
+    width: 100%;
     padding: 50px 55px;
   }
   .eightRightContentContainer article h3 {
@@ -623,17 +634,23 @@
     margin-bottom: 0;
   }
   .nameAndEmail input {
-    width: 100%;
+    width: 47%;
     margin-bottom: 20px;
     font-size: 17px;
+  }
+  .nameAndEmail input:first-child {
+    margin-right: 39px;
   }
   .numberAndSubject {
     margin-bottom: 0;
   }
   .numberAndSubject input {
-    width: 100%;
+    width: 47%;
     margin-bottom: 20px;
     font-size: 17px;
+  }
+  .numberAndSubject input:first-child {
+    margin-right: 39px;
   }
   .messageField textarea {
     height: 150px;
