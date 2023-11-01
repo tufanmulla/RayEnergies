@@ -48,6 +48,9 @@
   .styelOfnavLeftContent {
     left: 89%;
   }
+  .styelOfnavLeftContent {
+    border-bottom: 70px solid transparent;
+  }
   .navLeftContent .logo {
     width: 120px;
     top: -20px;
@@ -251,7 +254,7 @@
   .curveOverlay {
     width: fit-content;
     margin-left: -25px;
-    margin-bottom: -25px;
+    margin-bottom: -36px;
   }
   .curveOverlay img {
     width: 560%;
@@ -262,7 +265,7 @@
   /* ============================================================================ */
   /* section Two Responsive CSS are starts */
   .sectionTwo {
-    top: 108%;
+    top: 685px;
   }
   .sectionTwo .container {
     width: 90%;
@@ -285,7 +288,7 @@
   /* ============================================================================ */
   /* section Three Responsive CSS are starts */
   .sectionThree {
-    padding: 1070px 0 80px 0;
+    padding: 1180px 0 80px 0;
   }
   .sectionThree .container {
     width: 90%;
@@ -366,7 +369,7 @@
   /* ============================================================================ */
   /* section four Responsive CSS are starts */
   .sectionFour {
-    padding: 70px 0;
+    padding: 70px 0 160px 0;
   }
   .sectionFour .container {
     width: 90%;
@@ -395,8 +398,10 @@
   /* ============================================================================ */
   /* section five Responsive CSS are starts */
   .sectionFive {
-    display: block;
-    overflow: hidden;
+    padding-top: 0;
+    content: "";
+    clear: both;
+    display: table;
   }
   .sectionFiveLeftContent {
     width: 100%;
@@ -446,6 +451,7 @@
   }
 
   .questionBox {
+    top: -93px;
     width: 100%;
     left: unset;
     transform: unset;
@@ -457,9 +463,6 @@
     width: 100%;
     padding: 30px;
   }
-  .questionBox {
-    top: 6%;
-  }
   .questionBoxContent1 h2 {
     font-size: 16px;
   }
@@ -469,6 +472,9 @@
   .questionBoxContent2 i {
     font-size: 18px;
     padding: 18px;
+  }
+  .questionBoxContent3 {
+    width: 29%;
   }
   .questionBoxContent3 b {
     font-size: 13px;
@@ -514,9 +520,10 @@
   /* section Seven Responsive are CSS starts */
   .sectionSeven {
     padding: 0 0 550px 0;
+    height: 65vh;
   }
   .videoPlayButtonContainer {
-    height: 541px;
+    height: 552px;
   }
   .sectionSeven .leftShape {
     display: none;
@@ -732,8 +739,11 @@
   .footer .container {
     width: 80%;
   }
+  .newsLetter {
+    padding: 50px 0;
+  }
   .newsLetterContent {
-    padding: 20px;
+    padding: 20px 0;
     float: unset;
     margin: 0 auto;
   }
@@ -749,7 +759,7 @@
   }
   .newsLetterContent form input {
     padding: 10px;
-    width: 100%;
+    width: 300px;
     margin-bottom: 10px;
     margin-right: 0;
   }

@@ -218,7 +218,7 @@
   }
   .sliderPointer {
     display: block;
-    left: 0;
+    left: 27px;
     bottom: 53%;
   }
   .sidbarContactInfo {
@@ -255,7 +255,7 @@
   /* ============================================================================ */
   /* section Two Responsive CSS are starts */
   .sectionTwo {
-    top: 145%;
+    top: 853px;
   }
   .sectionTwo .container {
     width: 98%;
@@ -291,7 +291,7 @@
   /* ============================================================================ */
   /* section Three Responsive CSS are starts */
   .sectionThree {
-    padding: 360px 0 80px 0;
+    padding: 300px 0 80px 0;
   }
   .sectionThree .container {
     width: 95%;
@@ -595,7 +595,7 @@
     padding: 0 0 550px 0;
   }
   .videoPlayButtonContainer {
-    height: 541px;
+    height: 551px;
   }
   .sectionSeven .leftShape {
     display: none;
@@ -627,7 +627,7 @@
     margin-bottom: 20px;
   }
   .eightRightContentContainer article span {
-    font-size: 17px;
+    font-size: 16px;
     margin-bottom: 35px;
   }
   .nameAndEmail {
@@ -675,23 +675,14 @@
   /* ============================================================================ */
   /* section Nine Responsive CSS are starts */
   .sectionNine .container {
-    width: 85%;
+    width: 95%;
   }
   .sectionNineContent {
-    width: 98%;
+    width: 100%;
   }
   .sectionNineBox {
-    display: block;
-    width: 48%;
-    margin-right: 25px;
-    margin-bottom: 35px;
-  }
-  .sectionNineBox:nth-child(2) {
-    margin-right: 0;
-  }
-  .sectionNineBox:last-child {
-    margin: 0 auto;
-    float: unset;
+    width: 32%;
+    margin-right: 18.5px;
     margin-bottom: 0;
   }
   .sectionNineBox article h2 {
@@ -714,25 +705,24 @@
     padding: 0 0 90px 0;
   }
   .sectionTenContent {
-    width: 90%;
+    width: 95%;
   }
   .sectionTenBox {
     display: inline-block;
-    width: 48%;
-    margin-right: 27px;
+    width: 32%;
+    margin-right: 18.5px;
     margin-bottom: 35px;
   }
-
-  .sectionTenBox:nth-child(2) {
+  .sectionTenBox:nth-child(3) {
     margin-right: 0;
+    margin-bottom: 35px;
+    float: unset;
   }
   .sectionTenBox:nth-child(4) {
-    margin-right: 0;
+    margin-bottom: 0;
   }
   .sectionTenBox:last-child {
-    float: unset;
-    display: block;
-    margin: 0 auto;
+    margin-bottom: 0;
   }
   .tenBoxContent {
     width: 85%;
@@ -743,7 +733,7 @@
   }
 
   .seeMoreProject {
-    width: 80%;
+    width: 63%;
   }
   .seeMoreProject p {
     line-height: 27px;
@@ -768,36 +758,37 @@
     margin-bottom: 10px;
   }
   .sectionElevenLeftContent {
-    width: 50%;
+    width: 55%;
   }
   .sectionElevenLeftContent b {
     font-size: 23px;
   }
   .sectionElevenLeftContent h2 {
-    width: 90%;
-    font-size: 33px;
-    margin-bottom: 35px;
+    width: 80%;
+    font-size: 36px;
+    margin-bottom: 40px;
   }
   .sectionElevenLeftContent p {
     width: 90%;
     font-size: 18px;
-    margin-bottom: 35px;
+    line-height: 33px;
+    margin-bottom: 40px;
   }
   .sectionElevenLeftContent .ratingName h4 {
-    font-size: 23px;
-    margin-bottom: 5px;
+    font-size: 26px;
+    margin-bottom: 10px;
   }
   .ratingName span {
-    font-size: 17px;
+    font-size: 19px;
   }
   .ratings {
     width: 85%;
   }
   .sectionElevenLeftContent:hover .rating ul li {
-    margin-right: 2px;
+    margin-right: 3px;
   }
   .rating ul li i {
-    font-size: 18px;
+    font-size: 22px;
   }
   .sectionElevenLeftContent:hover .rating ul li i {
     transform: scale(1.02);
@@ -810,8 +801,8 @@
 
   .sectionElevenRightContent {
     display: block;
-    width: 50%;
-    height: 420px;
+    width: 45%;
+    height: 500px;
   }
   /* section Eleven Responsive CSS ends */
   /* ============================================================================ */
@@ -823,18 +814,12 @@
   }
   .sectionTwelveBox {
     display: inline-block;
-    width: 48%;
-    margin-right: 28px;
-    margin-bottom: 45px;
-  }
-  .sectionTwelveBox:nth-child(2) {
-    margin-right: 0;
-    margin-bottom: 45px;
+    width: 32%;
+    margin-right: 18.5px;
+    margin-bottom: 0;
   }
   .sectionTwelveBox:last-child {
-    float: unset;
-    display: block;
-    margin: 0 auto;
+    margin-right: 0;
   }
   .sectionTwelve .date {
     margin-bottom: 15px;
@@ -866,15 +851,14 @@
   /* ============================================================================ */
   /* footer Responsive CSS are starts here */
   .footer .container {
-    width: 90%;
+    width: 95%;
   }
   .newsLetter {
     padding: 20px;
   }
   .newsLetterContent {
-    padding: 20px;
-    float: unset;
-    margin: 0 auto;
+    padding: 20px 0;
+    float: right;
   }
 
   .newsLetterContent span {
@@ -886,14 +870,14 @@
 
   .newsLetterContent form input {
     padding: 15px;
-    width: 33%;
-    margin-right: 15px;
+    width: 36%;
+    margin-right: 7px;
   }
   .newsLetterContent form input::placeholder {
     font-size: 16px;
   }
   .newsLetterContent form button {
-    padding: 16px;
+    padding: 15px;
     width: fit-content;
     display: inline;
   }
@@ -906,26 +890,27 @@
   }
   .footerBox:first-child {
     float: left;
-    width: 55%;
+    width: 430.1px;
     margin-top: 0;
     margin-right: 33px;
     padding-bottom: 20px;
   }
   .footerLogo {
-    margin-bottom: 12px;
+    margin-bottom: 45px;
   }
   .footerBox:first-child .footerLogo img {
-    width: 150px;
+    width: 190px;
   }
   .footerAboutCompany article {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
   }
   .footerAboutCompany article h3 {
-    font-size: 30px;
+    font-size: 33px;
+    margin-bottom: 10px;
   }
   .footerAboutCompany article p {
-    font-size: 15px;
-    line-height: 26px;
+    font-size: 17px;
+    line-height: 30px;
   }
 
   .footerSocial ul li a i {
@@ -935,16 +920,18 @@
 
   .footerBox:nth-child(2) {
     float: right;
-    width: 40%;
+    width: 50.1%;
     margin-right: 0;
+    height: 419px;
   }
   .footerBox:nth-child(2) ul li {
     margin-bottom: 15px;
   }
   .footerBox:nth-child(3) {
+    display: inline-block;
     float: left;
-    width: 48%;
-    margin-right: 27px;
+    width: 50%;
+    margin-right: 0px;
   }
   .footerBox:nth-child(3) .posts .postsImg {
     width: 90px;
@@ -953,7 +940,7 @@
   }
   .footerBox:nth-child(3) .posts .postsContent h6 {
     font-size: 16px;
-    width: 200px;
+    width: 325px;
     line-height: 22px;
   }
   .footerBox:nth-child(3) .posts .postsContent span {

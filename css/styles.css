@@ -121,7 +121,7 @@ span {
   height: 71.72px;
 }
 .navLeftContent .logo {
-  width: 130px;
+  width: 160px;
   float: right;
   padding: 0 10px 0 10px;
   position: absolute;
@@ -638,13 +638,14 @@ nav ul li ul li a::after {
 
 /* curve overlay */
 .curveOverlay {
-  margin-bottom: -6px;
+  margin-bottom: -18px;
   position: relative;
   z-index: 5;
 }
 .curveOverlay img {
-  width: 100%;
+  width: 105%;
   height: 178px;
+  margin-left: -2px;
 }
 /* curve overlay */
 /* sidebar contact info ends */
@@ -660,7 +661,7 @@ nav ul li ul li a::after {
   background-color: transparent;
   position: absolute;
   z-index: 20;
-  top: 138%;
+  top: 855px;
 }
 .sectionTwoBoxContainer {
   content: "";
@@ -2735,7 +2736,7 @@ span.profileSocialTooltip::before {
   color: #ffffff;
   padding: 20px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: 1px;
   cursor: pointer;

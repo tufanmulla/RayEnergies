@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1251px) and (max-width: 1366px) {
+  .navLeftContent {
+    width: 24%;
+  }
+  .navLeftContent .logo {
+    left: 140px;
+  }
+  .styelOfnavLeftContent {
+    left: 94%;
+    border-bottom: 85px solid transparent;
+  }
+  .navRightContent {
+    width: 72%;
+  }
+}
