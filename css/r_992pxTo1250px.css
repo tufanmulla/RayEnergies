@@ -1,5 +1,5 @@
 /* responsive CSS under Max width 599 px */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px) and (max-width: 1250px) {
   /* default CSS */
   .titleDiv {
     width: 80%;
@@ -95,9 +95,18 @@
     transform: translate(-50%, -50%) rotate(315deg);
     left: 48%;
   }
-
   nav ul li:hover a::after {
     bottom: -140%;
+  }
+  nav ul li ul li a {
+    overflow: unset;
+    margin-right: 0;
+  }
+  nav ul li .moreHome li {
+    margin-right: 0;
+  }
+  nav ul li .morePages li {
+    margin-right: 0;
   }
   .navRightContent .searchDivision {
     display: block;
@@ -132,8 +141,8 @@
   }
   .searchField {
     width: 0;
-    left: 0;
-    top: 15%;
+    left: 10%;
+    top: 15.1%;
     transform: translate(-50%, -50%);
     z-index: 10;
     margin: 0 auto;
@@ -165,18 +174,18 @@
     width: 90%;
   }
   .sectionOneContentContainer {
-    width: 80%;
+    width: 75%;
   }
   .sectionOneContentContainer article b {
-    font-size: 24px;
+    font-size: 30px;
     width: 100%;
   }
   .sectionOneContentContainer article h1 {
-    font-size: 80px;
+    font-size: 120px;
     width: 100%;
   }
   .sectionOneContentContainer article p {
-    font-size: 19px;
+    font-size: 22px;
     width: 80%;
   }
   .sectionOneContentContainer article p:hover {
@@ -184,15 +193,15 @@
     width: 100%;
   }
   .sectionOneContentContainer .readMoreButton {
-    width: 180px;
+    width: 200px;
   }
   .sectionOneContentContainer .readMoreButton button {
-    font-size: 18px;
+    font-size: 20px;
     padding: 20px;
   }
   .sectionOneContentContainer .readMoreButton button::before {
-    left: -235%;
-    top: -700%;
+    left: -222%;
+    top: -629%;
   }
 
   .leftShape {
@@ -201,31 +210,38 @@
     transform: rotate(14deg);
   }
   .rightShape {
-    right: -692px;
-    top: -30%;
-    transform: rotate(371deg);
-    border-right: 786px solid transparent;
-    border-bottom: 1300px solid #948bfc7e;
+    right: -295px;
+    top: 10%;
+    transform: rotate(270deg);
+    border-right: 981px solid transparent;
+    border-bottom: 476px solid #948bfc7e;
   }
   .sliderPointer {
     display: block;
     left: 0;
+    bottom: 53%;
   }
   .sidbarContactInfo {
-    right: -260px;
+    right: -185px;
     bottom: 62%;
   }
 
   .sidbarContactInfo i {
-    font-size: 17px;
+    font-size: 15px;
   }
   .sidbarContactInfo a {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 300;
   }
   .sidbarContactInfo span {
     font-weight: 300;
-    font-size: 17px;
+    font-size: 15px;
+  }
+  .sidbarContactInfo .mobile {
+    margin-right: 25px;
+  }
+  .sidbarContactInfo .email {
+    margin-right: 25px;
   }
 
   .curveOverlay {
@@ -233,52 +249,40 @@
     margin-left: -25px;
     margin-bottom: -25px;
   }
-  .curveOverlay img {
-    width: 560%;
-  }
   /* section One Responsive CSS ends */
   /* ============================================================================ */
 
   /* ============================================================================ */
   /* section Two Responsive CSS are starts */
   .sectionTwo {
-    top: 125%;
+    top: 145%;
   }
   .sectionTwo .container {
-    width: 90%;
+    width: 98%;
   }
   .sectionTwoBoxContainer {
     width: 98%;
     margin: 0 auto;
   }
   .sectionTwoBox {
-    width: 47%;
+    width: 32%;
     display: inline;
-    margin-right: 39px;
-    margin-bottom: 50px;
-  }
-  .sectionTwoBox:nth-child(2) {
-    margin-right: 0;
-  }
-  .sectionTwoBox:last-child {
-    display: block;
-    float: unset;
-    margin: 0 auto;
+    margin-right: 18.7px;
     margin-bottom: 0;
   }
   .sectionTwoBox:hover {
     transform: scaleY(1.01) scaleX(1.01);
   }
   .secitonTwoBoxContent article h2 {
-    font-size: 22px;
+    font-size: 24px;
   }
   .sectionTwoBoxButton button {
-    padding: 17px;
-    width: 170px;
-    font-size: 18px;
+    padding: 18px;
+    width: 100%;
+    font-size: 20px;
   }
   .sectionTwoBoxButton button::before {
-    left: -305%;
+    left: -258%;
     top: -640%;
   }
   /* section Two Responsive CSS ends */
@@ -287,18 +291,18 @@
   /* ============================================================================ */
   /* section Three Responsive CSS are starts */
   .sectionThree {
-    padding: 750px 0 80px 0;
+    padding: 360px 0 80px 0;
   }
   .sectionThree .container {
-    width: 70%;
+    width: 95%;
   }
   .sectionThree .section3LeftContent {
-    width: 100%;
-    float: unset;
+    width: 48%;
+    float: left;
   }
 
   .sectionThree .section3LeftContentContainer {
-    height: 607px;
+    height: 500px;
     transition: all 0.3s;
     margin-bottom: 20px;
   }
@@ -307,7 +311,7 @@
   }
   .section3LeftContentContainer .one1Image {
     height: fit-content;
-    margin-top: 35px;
+    margin-top: 25px;
   }
   .section3LeftContentContainer .one1Image img {
     height: 100%;
@@ -316,68 +320,69 @@
     left: 26%;
   }
   .sectionThree .section3RightContent {
-    width: 100%;
-    float: unset;
+    width: 48%;
+    float: right;
   }
   .section3RightContentContainer h2 {
-    font-size: 23px;
+    font-size: 22px;
   }
   .section3RightContentContainer .sectionThreeP1 {
     width: 100%;
-    font-size: 37px;
+    font-size: 36px;
   }
   .section3RightContentContainer .sectionThreeP2 {
     width: 92%;
     margin-bottom: 30px;
-    font-size: 16px;
+    font-size: 15px;
   }
   .section3RightContentContainer ul {
     margin-bottom: 45px;
   }
   .section3RightContentContainer ul li i {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 400px;
   }
   .section3RightContentContainer ul li strong {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
   }
   .knowledgeBox {
-    width: 80%;
+    width: 90%;
   }
   .knowledgeBox .knowledgeBoxLeftContent {
-    width: 17%;
+    width: 18%;
   }
   .knowledgeBoxRightContent {
-    width: 82%;
+    width: 80%;
   }
   .knowledgeBox b {
-    width: 90%;
-    font-size: 18px;
+    width: 92%;
+    font-size: 16px;
     font-weight: 500;
   }
   .getButtonAndCallButton {
-    width: 85%;
+    width: 90%;
   }
   .getStartedButton2 button {
-    width: 60%;
+    width: 75%;
     font-weight: 500;
+    padding: 18px;
   }
   .getStartedButton2 button::before {
-    left: -416px;
-    top: -443px;
+    left: -438px;
+    top: -418px;
   }
   .callButtonDivision .callButton {
-    width: 25%;
+    width: 28%;
   }
   .callButtonDetails {
     width: 69%;
   }
   .callButtonDivision .callButton i {
-    font-size: 18px;
+    font-size: 20px;
   }
   .callButtonDivision:hover i {
-    font-size: unset;
+    font-size: 20px;
   }
   .callButtonDivision:hover span {
     font-size: unset;
@@ -390,7 +395,7 @@
   }
   .callButtonDetails a {
     width: 100%;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   /* section Three Responsive CSS ends */
@@ -402,30 +407,24 @@
     padding: 70px 0 250px 0;
   }
   .sectionFour .container {
-    width: 98%;
+    width: 95%;
   }
   .sectionFour .serivceBoxContainer {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   .sectionFour .serivceBoxContainer .serivceBox {
-    width: 47%;
+    width: 32%;
     display: inline-block;
     margin: 0 auto;
-    margin-right: 37px;
-    margin-bottom: 40px;
-  }
-  .sectionFour .serivceBoxContainer .serivceBox:nth-child(2) {
-    margin-right: 0;
+    margin-right: 18.5px;
+    margin-bottom: 0;
   }
   .sectionFour .serivceBoxContainer .serivceBox:last-child {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 0;
-    float: unset;
+    margin-right: 0;
   }
   .logoOfServiceBox {
-    top: 33%;
+    top: 31%;
   }
   .imgBox {
     margin-bottom: 40px;
@@ -434,13 +433,17 @@
     padding: 40px 20px;
   }
   .serivceBox article h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
   .serivceBox article p {
     font-size: 16px;
   }
   .sectionFourBoxButton button::before {
     left: -288%;
+  }
+  .sectionFourBoxButton button {
+    padding: 18px;
+    font-size: 20px;
   }
   /* section four Responsive CSS ends */
   /* ============================================================================ */

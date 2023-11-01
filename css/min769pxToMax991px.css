@@ -446,7 +446,7 @@
     font-size: 18px;
   }
   .callButtonDivision:hover i {
-    font-size: unset;
+    font-size: 18px;
   }
   .callButtonDivision:hover span {
     font-size: unset;
