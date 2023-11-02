@@ -302,7 +302,7 @@ nav ul li ul li a::after {
   transition: all 0.2s;
 }
 .searchDivision:hover .search {
-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .navRightContent .searchDivision i {
@@ -323,7 +323,7 @@ border-radius: 5px;
   right: 365px;
   width: 0;
   left: 0%;
-  top: 24%;
+  top: 29%;
   transform: translate(-50%, -50%);
   z-index: 10;
   margin: 0 auto;
