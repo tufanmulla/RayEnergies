@@ -1,4 +1,4 @@
-/* responsive CSS under Max width 599 px */
+/* responsive CSS under min width 769 max width 991px starts here */
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   /* default CSS */
   .titleDiv {
@@ -1057,4 +1057,4 @@
   /* footer Responsive CSS ends */
   /* ============================================================================ */
 }
-/* responsive CSS under Max width 599 px */
+/* responsive CSS under min width 769 max width 991px ends here */

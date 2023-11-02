@@ -1,34 +1,4 @@
 /* ===================================================================================== */
-/* Using google robot fonts */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-/* Using google robot fonts */
-/* ===================================================================================== */
-
-/* ===================================================================================== */
-/* Default CSS are starts here */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-a {
-  text-decoration: none;
-}
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 50px;
-  overflow: hidden;
-}
-body {
-  background-color: #70e3de2b;
-}
-
-/* Default CSS ends */
-/* ===================================================================================== */
-
-/* ===================================================================================== */
 /* loginForm CSS starts here */
 .loginForm {
   width: 40%;

@@ -1,7 +1,7 @@
 /* ================================================================ */
 /* responsive under min-width 992px to max-width 1250px design are starts here */
 @media only screen and (min-width: 992px) and (max-width: 1250px) {
-    /* default css are starts here*/
+  /* default css are starts here*/
   .container {
     width: 80%;
     padding: 50px 30px;
@@ -24,6 +24,7 @@
 /* respoinsive under max width 992px to max-width 1250px design ends here */
 /* ================================================================ */
 
+/* ================================================================ */
 /* responsive under min-width 769px to max-width 991px design are starts here */
 @media only screen and (min-width: 769px) and (max-width: 991px) {
   /* default css are starts here*/
@@ -55,7 +56,7 @@
   /* default css are starts here*/
   .container {
     width: 90%;
-    padding: 20px 10px;
+    padding: 25px 15px;
   }
   /* default css starts here*/
 
@@ -92,15 +93,17 @@
   /* loginForm responsive design are starts here */
   .loginForm {
     float: unset;
-    width: 100%;
-    margin: 0 0 100px 0;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 100px;
   }
   /* loginForm responsive design ends here */
 
   /* registerForm responsive design are starts here */
   .registerForm {
     float: unset;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
   }
   /* registerForm responsive design ends here */
 }
