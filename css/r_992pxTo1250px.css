@@ -120,10 +120,8 @@
     border: 1px solid #948bfc;
   }
   .searchDivision:hover .search {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    border-radius: 5px;
     border: 1px solid #948bfc;
-    border-left: none;
   }
   .navRightContent .searchDivision i {
     font-size: 20px;
@@ -131,23 +129,21 @@
   .searchDivision .search:hover i {
     font-size: 22px;
   }
-  .searchDivision:hover input {
-    width: 400px;
-    padding: 16px;
-    border: 1px solid #948bfc;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-right: none;
-  }
+
   .searchField {
     width: 0;
-    left: 10%;
-    top: 15.1%;
+    left: 0%;
+    top: 24%;
     transform: translate(-50%, -50%);
     z-index: 10;
     margin: 0 auto;
   }
-
+  .searchDivision:hover input {
+    width: 650px;
+    padding: 16px;
+    border: 1px solid #948bfc;
+    border-radius: 5px;
+  }
   .navRightContent .getStartedButton {
     width: 22%;
     float: right;
@@ -590,10 +586,10 @@
   /* ============================================================================ */
   /* section Seven Responsive are CSS starts */
   .sectionSeven {
-    padding: 0 0 550px 0;
+    padding: 0 0 1120px 0;
   }
   .videoPlayButtonContainer {
-    height: 551px;
+    height: 1120px;
   }
   .sectionSeven .leftShape {
     display: none;

@@ -1,0 +1,68 @@
+/* ================================================================ */
+/* responsive under min-width 992px to max-width 1250px design are starts here */
+@media only screen and (min-width: 992px) and (max-width: 1250px) {
+}
+/* respoinsive under max width 992px to max-width 1250px design ends here */
+/* ================================================================ */
+
+/* responsive under min-width 769px to max-width 991px design are starts here */
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+}
+/* respoinsive under max width 769px to max-width 991px design ends here */
+/* ================================================================ */
+
+/* ================================================================ */
+/* responsive under min-width 600px to max-width 768px design are starts here */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  /* default css are starts here*/
+  .container {
+    width: 100%;
+  }
+  /* default css starts here*/
+
+  /* loginForm responsive design are starts here */
+  .loginForm {
+    float: unset;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  /* loginForm responsive design ends here */
+
+  /* registerForm responsive design are starts here */
+  .registerForm {
+    float: unset;
+    width: 80%;
+    margin: 0 auto
+  }
+  /* registerForm responsive design ends here */
+}
+/* respoinsive under max width 600px to max-width 768px design ends here */
+/* ================================================================ */
+
+/* ================================================================ */
+/* responsive under max-width 599px design are starts here */
+@media only screen and (max-width: 599px) {
+  /* default css are starts here*/
+  .container {
+    width: 100%;
+  }
+  /* default css starts here*/
+
+  /* loginForm responsive design are starts here */
+  .loginForm {
+    float: unset;
+    width: 100%;
+    margin: 0 0 100px 0;
+  }
+  /* loginForm responsive design ends here */
+
+  /* registerForm responsive design are starts here */
+  .registerForm {
+    float: unset;
+    width: 100%;
+  }
+  /* registerForm responsive design ends here */
+}
+/* respoinsive under max width 599px ends here */
+/* ================================================================ */

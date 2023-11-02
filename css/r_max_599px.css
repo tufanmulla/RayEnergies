@@ -312,11 +312,10 @@
   .section3LeftContentContainer .one1Image img {
     height: 100%;
   }
-  .section3LeftContentContainer .one2Image img
- {
-  width: 150px;
-  height: 150px;
- }
+  .section3LeftContentContainer .one2Image img {
+    width: 150px;
+    height: 150px;
+  }
   .sectionThree .section3RightContent {
     width: 100%;
     float: unset;
@@ -521,7 +520,7 @@
     font-size: 15px;
     margin-right: 10%;
   }
-    .sectionFiveRightContentContainer:hover .progressContent3 #mastery {
+  .sectionFiveRightContentContainer:hover .progressContent3 #mastery {
     margin-right: 20%;
   }
 
@@ -553,11 +552,12 @@
   /* ============================================================================ */
   /* section Seven Responsive are CSS starts */
   .sectionSeven {
+    margin: 0 0 660px 0;
     padding: 0 0 550px 0;
     height: 65vh;
   }
   .videoPlayButtonContainer {
-    height: 552px;
+    height: 600px;
   }
   .sectionSeven .leftShape {
     display: none;
@@ -570,6 +570,9 @@
 
   /* ============================================================================ */
   /* section eight Responsive CSS are starts */
+  .sectionEight {
+    margin-top: -193px;
+  }
   .sectionEight .container {
     width: 95%;
   }
@@ -859,7 +862,7 @@
   }
   .footerBox:nth-child(3) .posts .postsContent h6 {
     font-size: 14px;
-    width: 200px;
+    width: 170px;
     line-height: 22px;
   }
   .footerBox:nth-child(3) .posts .postsContent span {

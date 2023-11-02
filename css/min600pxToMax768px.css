@@ -94,7 +94,7 @@
   .searchField {
     width: 0;
     left: 0;
-    top: 18%;
+    top: 18.3%;
     transform: translate(-50%, -50%);
     z-index: 10;
     margin: 0 auto;
@@ -601,10 +601,10 @@
   /* ============================================================================ */
   /* section Seven Responsive are CSS starts */
   .sectionSeven {
-    padding: 0 0 550px 0;
+    padding: 0 0 825px 0;
   }
   .videoPlayButtonContainer {
-    height: 541px;
+    height:825px;
   }
   .sectionSeven .leftShape {
     display: none;

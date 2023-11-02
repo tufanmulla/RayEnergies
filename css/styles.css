@@ -302,11 +302,7 @@ nav ul li ul li a::after {
   transition: all 0.2s;
 }
 .searchDivision:hover .search {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-left: none;
+border-radius: 5px;
 }
 
 .navRightContent .searchDivision i {
@@ -324,26 +320,29 @@ nav ul li ul li a::after {
 
 .searchField {
   position: absolute;
-  width: fit-content;
   right: 365px;
+  width: 0;
+  left: 0%;
+  top: 24%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  margin: 0 auto;
 }
 
 .searchField input {
   width: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #948bfc;
   padding: 0;
   outline: none;
   border: 0px solid #948bfc;
   transition: all 0.1s;
+  border-radius: 5px;
 }
 .searchDivision:hover input {
   width: 675px;
   padding: 16px;
   border: 1px solid #948bfc;
-  border-right: none;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
 }
 
 .navRightContent .getStartedButton {
@@ -792,10 +791,10 @@ nav ul li ul li a::after {
   float: left;
 }
 .section3LeftContentContainer {
-    position: relative;
-    content: "";
-    clear: both;
-    display: table;
+  position: relative;
+  content: "";
+  clear: both;
+  display: table;
 }
 .section3LeftContentContainer .twoImage {
   overflow: hidden;
@@ -1682,7 +1681,7 @@ nav ul li ul li a::after {
 /* ===================================================================================== */
 /* section Seven CSS are starts here */
 .sectionSeven {
-  margin: 0 0 550px 0;
+  margin: 0 0 742px 0;
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.55),
@@ -1704,8 +1703,8 @@ nav ul li ul li a::after {
   border-right: 1300px;
   border-bottom: 768px;
   position: absolute;
-  top: 25%;
-  left: -65%;
+  top: -40%;
+  left: -74%;
   transform: rotate(115deg);
   transition: all 0.3s;
   z-index: 0;
@@ -1718,9 +1717,9 @@ nav ul li ul li a::after {
   position: absolute;
   border-right: 1300px solid #948bfc7e;
   border-bottom: 786px solid transparent;
-  top: -55%;
-  right: -45%;
-  transform: rotate(95deg);
+  top: -57%;
+  right: -48%;
+  transform: rotate(90deg);
   transition: all 0.3s;
   z-index: 0;
 }
@@ -1728,7 +1727,7 @@ nav ul li ul li a::after {
   right: -130%;
 }
 .videoPlayButtonContainer {
-  height: 505px;
+  height: 945px;
   cursor: pointer;
 }
 
@@ -1790,7 +1789,7 @@ nav ul li ul li a::after {
 .sectionEight {
   position: absolute;
   width: 100%;
-  margin-top: -190px;
+  margin-top: -493px;
   transition: all 0.5s;
 }
 .sectionEight .sectionEightContentContainer {
