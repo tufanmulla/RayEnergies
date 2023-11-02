@@ -302,16 +302,14 @@
   }
 
   .sectionThree .section3LeftContentContainer {
-    height: 500px;
     transition: all 0.3s;
-    margin-bottom: 20px;
   }
   .sectionThree .section3LeftContentContainer:hover {
     transform: translateX(10px);
   }
   .section3LeftContentContainer .one1Image {
     height: fit-content;
-    margin-top: 25px;
+    margin-top: -4px;
   }
   .section3LeftContentContainer .one1Image img {
     height: 100%;

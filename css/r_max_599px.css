@@ -299,7 +299,7 @@
   }
 
   .sectionThree .section3LeftContentContainer {
-    height: 550px;
+    margin-bottom: 220px;
     transition: all 0.3s;
   }
   .sectionThree .section3LeftContentContainer:hover {
@@ -307,10 +307,16 @@
   }
   .section3LeftContentContainer .one1Image {
     height: fit-content;
+    top: 176px;
   }
   .section3LeftContentContainer .one1Image img {
     height: 100%;
   }
+  .section3LeftContentContainer .one2Image img
+ {
+  width: 150px;
+  height: 150px;
+ }
   .sectionThree .section3RightContent {
     width: 100%;
     float: unset;
@@ -338,6 +344,9 @@
   .knowledgeBox {
     width: 100%;
   }
+  .knowledgeBoxRightContent {
+    width: 75%;
+  }
   .knowledgeBox b {
     width: 90%;
     font-size: 17px;
@@ -346,9 +355,18 @@
   .getButtonAndCallButton {
     width: 100%;
   }
+  .getStartedButton2 button {
+    font-size: 15px;
+  }
   .getStartedButton2 button::before {
     left: -425px;
     top: -430px;
+  }
+  .callButtonDivision .callButton {
+    width: 33%;
+  }
+  .callButtonDetails {
+    width: 58%;
   }
   .callButtonDivision:hover i {
     font-size: unset;
@@ -381,7 +399,7 @@
     margin-bottom: 40px;
   }
   .logoOfServiceBox {
-    top: 42%;
+    top: 30%;
   }
   .serivceBox article h2 {
     font-size: 25px;
@@ -474,7 +492,7 @@
     padding: 18px;
   }
   .questionBoxContent3 {
-    width: 29%;
+    width: 26%;
   }
   .questionBoxContent3 b {
     font-size: 13px;
@@ -486,12 +504,25 @@
   }
   .progressContent1 #mastery {
     font-size: 15px;
+    margin-right: 15%;
   }
+  .sectionFiveRightContentContainer:hover .progressContent1 #mastery {
+    margin-right: 21%;
+  }
+
   .progressContent2 #mastery {
     font-size: 15px;
+    margin-right: 22%;
+  }
+  .sectionFiveRightContentContainer:hover .progressContent2 #mastery {
+    margin-right: 33%;
   }
   .progressContent3 #mastery {
     font-size: 15px;
+    margin-right: 10%;
+  }
+    .sectionFiveRightContentContainer:hover .progressContent3 #mastery {
+    margin-right: 20%;
   }
 
   /* section five Responsive CSS ends */
@@ -508,6 +539,9 @@
 
   .sectionSixLeftContent {
     width: 100%;
+  }
+  .frequentlyAskedQuestion ul li::after {
+    bottom: -45px;
   }
 
   .sectionSixRightContent {
