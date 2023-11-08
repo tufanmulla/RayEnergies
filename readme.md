@@ -67,8 +67,8 @@ We would like to acknowledge the following resources, including the tutorials an
 
 - [Anisul Islam's YouTube Channel](https://www.youtube.com/@anisul-islam): Anisul Islam's YouTube channel provided invaluable tutorials and lessons on web development, HTML, CSS, Git, and GitHub. Specific playlists that were particularly helpful include:
 
-  - [HTML Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3oHBr5dsumGwjUxByN5Lnw3&si=tvR-kyKSgasdg59N)
-  - [CSS Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3qjCBXjTmv7Xeh8MDUUVJDO&si=NS4YzG-CQEEXc0S9)
-  - [Git and GitHub Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3qAW8DT6I0XOxC23qnA4FL-&si=G-y9it1wMTrz2VvR)
+  - <span style="color:#948bfc;">[HTML Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3oHBr5dsumGwjUxByN5Lnw3&si=tvR-kyKSgasdg59N)</span>
+  - <span style="color:#948bfc;">[CSS Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3qjCBXjTmv7Xeh8MDUUVJDO&si=NS4YzG-CQEEXc0S9)</span>
+  - <span style="color:#948bfc;">[Git and GitHub Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3qAW8DT6I0XOxC23qnA4FL-&si=G-y9it1wMTrz2VvR)</span>
 
 These resources, especially Anisul Islam's YouTube channel, played a crucial role in enhancing our understanding of web development and were instrumental in completing this project.
