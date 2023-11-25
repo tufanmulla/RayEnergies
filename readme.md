@@ -53,7 +53,7 @@ Include some screenshots or images:
 
 ## License
 
-This project is not licensed and all rights are reserved. It is intended for educational and personal use only. No permissions or licenses are granted for further use, distribution, or modification.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Feedback and Contributions
 
