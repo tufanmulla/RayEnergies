@@ -49,7 +49,7 @@ Include some screenshots or images:
 ## Author
 
 - [Tufan Mulla](https://www.tufanmulla.com/)
-- tufanmulla@yahoo.com
+- <tufanmulla@yahoo.com>
 
 ## License
 
