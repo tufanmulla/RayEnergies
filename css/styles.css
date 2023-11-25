@@ -168,6 +168,7 @@ span {
 }
 nav ul {
   list-style: none;
+  width: -moz-fit-content;
   width: fit-content;
   height: 100%;
   padding: 0;
@@ -198,6 +199,7 @@ nav ul li a {
   color: #000000;
   text-transform: uppercase;
   display: inline-block;
+  width: -moz-fit-content;
   width: fit-content;
   height: 100%;
   position: relative;
@@ -236,7 +238,7 @@ nav ul li ul {
   position: absolute;
   width: 200px;
   padding: 15px;
-  height: fit-content;
+  height: auto;
   background-color: #948bfc;
   border-top: 1px solid #000000;
   top: 102%;
@@ -323,7 +325,7 @@ nav ul li ul li a::after {
   right: 365px;
   width: 0;
   left: 0%;
-  top: 29%;
+  top: 25%;
   transform: translate(-50%, -50%);
   z-index: 10;
   margin: 0 auto;
@@ -934,6 +936,7 @@ nav ul li ul li a::after {
   padding: 20px;
   color: #ffffff;
   border-radius: 100%;
+  width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
 }
@@ -1114,6 +1117,7 @@ nav ul li ul li a::after {
   margin-right: 0;
 }
 .imgBox {
+  width: -moz-fit-content;
   width: fit-content;
   overflow: hidden;
   border-top-left-radius: 20px;
@@ -1309,6 +1313,7 @@ nav ul li ul li a::after {
   margin-bottom: 12px;
 }
 .progressContent1 #mastery {
+  width: -moz-fit-content;
   width: fit-content;
   float: left;
   color: #353535;
@@ -1325,6 +1330,7 @@ nav ul li ul li a::after {
   font-size: 18px;
   color: #353535;
   font-weight: 700;
+  width: -moz-fit-content;
   width: fit-content;
 }
 
@@ -1336,6 +1342,7 @@ nav ul li ul li a::after {
   margin-bottom: 12px;
 }
 .progressContent2 #mastery {
+  width: -moz-fit-content;
   width: fit-content;
   color: #353535;
   font-size: 18px;
@@ -1350,6 +1357,7 @@ nav ul li ul li a::after {
 }
 .progressContent2 #percentage {
   font-size: 18px;
+  width: -moz-fit-content;
   width: fit-content;
   color: #353535;
   font-size: 18px;
@@ -1364,6 +1372,7 @@ nav ul li ul li a::after {
   margin-bottom: 12px;
 }
 .progressContent3 #mastery {
+  width: -moz-fit-content;
   width: fit-content;
   color: #353535;
   font-size: 18px;
@@ -1378,6 +1387,7 @@ nav ul li ul li a::after {
 }
 .progressContent3 #percentage {
   font-size: 18px;
+  width: -moz-fit-content;
   width: fit-content;
   color: #353535;
   font-size: 18px;
@@ -1490,8 +1500,9 @@ nav ul li ul li a::after {
 }
 .questionBoxContent2 i {
   display: block;
+  width: -moz-fit-content;
   width: fit-content;
-  height: fit-content;
+  height: auto;
   margin: 0 auto;
   color: #948bfc;
   background-color: #ffffff;
@@ -1561,7 +1572,7 @@ nav ul li ul li a::after {
   height: 50px;
 }
 .frequentlyAskedQuestion ul li:hover {
-  height: fit-content;
+  height: auto;
 }
 
 .frequentlyAskedQuestion ul li::after {
@@ -2277,7 +2288,7 @@ span.profileSocialTooltip::before {
 .tenBoxContent {
   width: 100%;
   background-color: #ffffff;
-  height: fit-content;
+  height: auto;
   padding: 20px 10px;
   transition: all 0.3s;
   border-radius: 8px;
@@ -2698,6 +2709,7 @@ span.profileSocialTooltip::before {
   margin: 0 auto;
 }
 .newsLetterContent {
+  width: -moz-fit-content;
   width: fit-content;
   float: right;
 }
@@ -2989,6 +3001,7 @@ span.profileSocialTooltip::before {
 }
 .footerBox:last-child address ul li .leftContentOfContactUs {
   float: left;
+  width: -moz-fit-content;
   width: fit-content;
   text-align: center;
   cursor: pointer;
@@ -3010,6 +3023,7 @@ span.profileSocialTooltip::before {
 
 .footerBox:last-child address ul li .rightContentOfContactUs {
   float: right;
+  width: -moz-fit-content;
   width: fit-content;
 }
 .footerBox:last-child address ul li:last-child .rightContentOfContactUs {

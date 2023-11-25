@@ -176,6 +176,7 @@
   .mobileMenuNav ul li {
     margin-bottom: 10px;
     text-align: start;
+    width: -moz-fit-content;
     width: fit-content;
     transition: all 0.3s;
   }
@@ -298,6 +299,7 @@
   }
 
   .curveOverlay {
+    width: -moz-fit-content;
     width: fit-content;
     margin-left: -25px;
     margin-bottom: -25px;
@@ -374,7 +376,7 @@
     transform: translateX(10px);
   }
   .section3LeftContentContainer .one1Image {
-    height: fit-content;
+    height: auto;
     margin-top: -10px;
   }
   .section3LeftContentContainer .one1Image img {
@@ -648,6 +650,7 @@
   /* section Seven Responsive are CSS starts */
   .sectionSeven {
     padding: 0 0 948px 0;
+    margin: 0 0 275px 0;
   }
   .videoPlayButtonContainer {
     height: 948px;
@@ -881,7 +884,7 @@
     width: 48%;
     margin-right: 28.6px;
     margin-bottom: 45px;
-    height:615px;
+    height: 615px;
   }
   .sectionTwelveBox:nth-child(2) {
     margin-right: 0;
@@ -950,6 +953,7 @@
   }
   .newsLetterContent form button {
     padding: 16px;
+    width: -moz-fit-content;
     width: fit-content;
     display: inline;
   }

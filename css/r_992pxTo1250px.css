@@ -241,6 +241,7 @@
   }
 
   .curveOverlay {
+    width: -moz-fit-content;
     width: fit-content;
     margin-left: -25px;
     margin-bottom: -25px;
@@ -304,7 +305,7 @@
     transform: translateX(10px);
   }
   .section3LeftContentContainer .one1Image {
-    height: fit-content;
+    height: auto;
     margin-top: -4px;
   }
   .section3LeftContentContainer .one1Image img {
@@ -587,6 +588,7 @@
   /* section Seven Responsive are CSS starts */
   .sectionSeven {
     padding: 0 0 1120px 0;
+    margin: 0 0 300px 0;
   }
   .videoPlayButtonContainer {
     height: 1120px;
@@ -872,6 +874,7 @@
   }
   .newsLetterContent form button {
     padding: 15px;
+    width: -moz-fit-content;
     width: fit-content;
     display: inline;
   }
@@ -922,7 +925,7 @@
     margin-bottom: 15px;
   }
   .footerBox:nth-child(3) {
-    display: inline-block;
+    display: inline;
     float: left;
     width: 50%;
     margin-right: 0px;

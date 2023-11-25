@@ -78,6 +78,7 @@
   /* mobile menu starts */
   .mobileMenu {
     display: block;
+    width: -moz-fit-content;
     width: fit-content;
     text-align: center;
     float: right;
@@ -132,6 +133,7 @@
   .mobileMenuNav ul li {
     margin-bottom: 10px;
     text-align: start;
+    width: -moz-fit-content;
     width: fit-content;
     transition: all 0.3s;
   }
@@ -252,6 +254,7 @@
   }
 
   .curveOverlay {
+    width: -moz-fit-content;
     width: fit-content;
     margin-left: -25px;
     margin-bottom: -36px;
@@ -306,7 +309,7 @@
     transform: translateX(10px);
   }
   .section3LeftContentContainer .one1Image {
-    height: fit-content;
+    height: auto;
     top: 176px;
   }
   .section3LeftContentContainer .one1Image img {
@@ -786,6 +789,7 @@
   }
   .newsLetterContent span {
     display: block;
+    width: -moz-fit-content;
     width: fit-content;
     font-size: 23px;
     margin: 0 auto;
@@ -805,6 +809,7 @@
   }
   .newsLetterContent form button {
     padding: 10px;
+    width: -moz-fit-content;
     width: fit-content;
     display: block;
     margin: 0 auto;
@@ -882,6 +887,7 @@
   .copyRightLeft span {
     margin: 0 auto;
     display: block;
+    width: -moz-fit-content;
     width: fit-content;
   }
   #copyRightText {
@@ -891,6 +897,7 @@
     width: 100%;
   }
   .copyRight .copyRightRight ul {
+    width: -moz-fit-content;
     width: fit-content;
     margin: 0 auto;
   }
