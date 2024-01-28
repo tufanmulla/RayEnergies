@@ -890,9 +890,6 @@
     width: -moz-fit-content;
     width: fit-content;
   }
-  #copyRightText {
-    display: none;
-  }
   .copyRight .copyRightRight {
     width: 100%;
   }

@@ -1037,10 +1037,6 @@
     float: left;
     width: 50%;
   }
-
-  #copyRightText {
-    display: none;
-  }
   .copyRight .copyRightRight {
     width: 50%;
     float: right;
