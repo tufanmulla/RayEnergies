@@ -61,12 +61,8 @@ If you have any feedback or would like to contribute to this project, please fee
 
 ## Acknowledgments
 
-We would like to acknowledge the following resources, including the tutorials and inspiration that guided us in developing this project:
+We would like to acknowledge the following resources:
 
-- [Anisul Islam's YouTube Channel](https://www.youtube.com/@anisul-islam): Anisul Islam's YouTube channel provided invaluable tutorials and lessons on web development, HTML, CSS, Git, and GitHub. Specific playlists that were particularly helpful include:
+- [W3Schools](https://www.w3schools.com/): W3Schools provided comprehensive tutorials and references on web development technologies, including HTML and CSS, which were instrumental in the development of this project.
 
-  - [HTML Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3oHBr5dsumGwjUxByN5Lnw3&si=tvR-kyKSgasdg59N)
-  - [CSS Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3qjCBXjTmv7Xeh8MDUUVJDO&si=NS4YzG-CQEEXc0S9)
-  - [Git and GitHub Tutorials](https://youtube.com/playlist?list=PLgH5QX0i9K3qAW8DT6I0XOxC23qnA4FL-&si=G-y9it1wMTrz2VvR)
-
-These resources, especially Anisul Islam's YouTube channel, played a crucial role in enhancing our understanding of web development and were instrumental in completing this project.
+These resources played a crucial role in enhancing our understanding of web development and were instrumental in completing this project.
